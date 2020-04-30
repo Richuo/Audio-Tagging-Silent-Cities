@@ -1,6 +1,4 @@
 iD,quality,length,country,url,birdName
-548108,no score,22,Poland,www.xeno-canto.org/548108/download,Sturnus vulgaris
-547259,no score,16,Poland,www.xeno-canto.org/547259/download,Sturnus vulgaris
 545422,no score,8,Netherlands,www.xeno-canto.org/545422/download,Sturnus vulgaris
 545404,no score,4,Netherlands,www.xeno-canto.org/545404/download,Sturnus vulgaris
 545403,no score,5,Netherlands,www.xeno-canto.org/545403/download,Sturnus vulgaris
@@ -27,6 +25,7 @@ iD,quality,length,country,url,birdName
 515519,no score,1345,Portugal,www.xeno-canto.org/515519/download,Sturnus vulgaris
 479171,no score,626,Ireland,www.xeno-canto.org/479171/download,Sturnus vulgaris
 434713,no score,99,France,www.xeno-canto.org/434713/download,Sturnus vulgaris
+549424,A,67,United States,www.xeno-canto.org/549424/download,Sturnus vulgaris
 548389,A,59,United Kingdom,www.xeno-canto.org/548389/download,Sturnus vulgaris
 546936,A,32,France,www.xeno-canto.org/546936/download,Sturnus vulgaris
 546935,A,65,France,www.xeno-canto.org/546935/download,Sturnus vulgaris
@@ -177,9 +176,6 @@ iD,quality,length,country,url,birdName
 263969,A,69,Norway,www.xeno-canto.org/263969/download,Sturnus vulgaris
 240096,A,10,Germany,www.xeno-canto.org/240096/download,Sturnus vulgaris
 237261,A,154,Sweden,www.xeno-canto.org/237261/download,Sturnus vulgaris
-234709,A,177,Finland,www.xeno-canto.org/234709/download,Sturnus vulgaris
-234475,A,68,Finland,www.xeno-canto.org/234475/download,Sturnus vulgaris
-234474,A,58,Finland,www.xeno-canto.org/234474/download,Sturnus vulgaris
 213464,A,68,Finland,www.xeno-canto.org/213464/download,Sturnus vulgaris
 211962,A,79,Sweden,www.xeno-canto.org/211962/download,Sturnus vulgaris
 211207,A,136,Estonia,www.xeno-canto.org/211207/download,Sturnus vulgaris
@@ -208,6 +204,8 @@ iD,quality,length,country,url,birdName
 48067,A,48,Argentina,www.xeno-canto.org/48067/download,Sturnus vulgaris
 42698,A,179,United Kingdom,www.xeno-canto.org/42698/download,Sturnus vulgaris
 27154,A,65,Sweden,www.xeno-canto.org/27154/download,Sturnus vulgaris
+548108,B,22,Poland,www.xeno-canto.org/548108/download,Sturnus vulgaris
+547259,B,16,Poland,www.xeno-canto.org/547259/download,Sturnus vulgaris
 544706,B,23,United Kingdom,www.xeno-canto.org/544706/download,Sturnus vulgaris
 542755,B,49,France,www.xeno-canto.org/542755/download,Sturnus vulgaris
 539948,B,167,Germany,www.xeno-canto.org/539948/download,Sturnus vulgaris
@@ -468,64 +466,7 @@ iD,quality,length,country,url,birdName
 354258,E,76,France,www.xeno-canto.org/354258/download,Sturnus vulgaris
 354252,E,202,France,www.xeno-canto.org/354252/download,Sturnus vulgaris
 329070,E,12,Italy,www.xeno-canto.org/329070/download,Sturnus vulgaris
-496652,A,20,France,www.xeno-canto.org/496652/download,Delichon urbicum
-480985,A,11,Netherlands,www.xeno-canto.org/480985/download,Delichon urbicum
-478995,A,18,Netherlands,www.xeno-canto.org/478995/download,Delichon urbicum
-471950,A,66,Norway,www.xeno-canto.org/471950/download,Delichon urbicum
-443565,A,19,Norway,www.xeno-canto.org/443565/download,Delichon urbicum
-431719,A,65,France,www.xeno-canto.org/431719/download,Delichon urbicum
-420479,A,173,Ireland,www.xeno-canto.org/420479/download,Delichon urbicum
-417422,A,303,Germany,www.xeno-canto.org/417422/download,Delichon urbicum
-381988,A,28,Russian Federation,www.xeno-canto.org/381988/download,Delichon urbicum
-377793,A,24,United Kingdom,www.xeno-canto.org/377793/download,Delichon urbicum
-377489,A,134,Spain,www.xeno-canto.org/377489/download,Delichon urbicum
-375860,A,92,Finland,www.xeno-canto.org/375860/download,Delichon urbicum
-374176,A,99,France,www.xeno-canto.org/374176/download,Delichon urbicum
-256683,A,497,Germany,www.xeno-canto.org/256683/download,Delichon urbicum
-256027,A,484,Germany,www.xeno-canto.org/256027/download,Delichon urbicum
-233425,A,137,Finland,www.xeno-canto.org/233425/download,Delichon urbicum
-213366,A,67,Finland,www.xeno-canto.org/213366/download,Delichon urbicum
-181145,A,43,Poland,www.xeno-canto.org/181145/download,Delichon urbicum
-162647,A,26,Mongolia,www.xeno-canto.org/162647/download,Delichon urbicum
-148465,A,104,Spain,www.xeno-canto.org/148465/download,Delichon urbicum
-142697,A,46,France,www.xeno-canto.org/142697/download,Delichon urbicum
-133444,A,72,Italy,www.xeno-canto.org/133444/download,Delichon urbicum
-44634,A,16,Italy,www.xeno-canto.org/44634/download,Delichon urbicum
-512600,B,19,France,www.xeno-canto.org/512600/download,Delichon urbicum
-480366,B,22,Azerbaijan,www.xeno-canto.org/480366/download,Delichon urbicum
-480362,B,13,Azerbaijan,www.xeno-canto.org/480362/download,Delichon urbicum
-462846,B,38,Portugal,www.xeno-canto.org/462846/download,Delichon urbicum
-417220,B,14,Belgium,www.xeno-canto.org/417220/download,Delichon urbicum
-373141,B,16,Switzerland,www.xeno-canto.org/373141/download,Delichon urbicum
-344098,B,22,Poland,www.xeno-canto.org/344098/download,Delichon urbicum
-293576,B,16,France,www.xeno-canto.org/293576/download,Delichon urbicum
-282133,B,182,Spain,www.xeno-canto.org/282133/download,Delichon urbicum
-267953,B,196,United Kingdom,www.xeno-canto.org/267953/download,Delichon urbicum
-183807,B,73,Uzbekistan,www.xeno-canto.org/183807/download,Delichon urbicum
-183788,B,136,Uzbekistan,www.xeno-canto.org/183788/download,Delichon urbicum
-61484,B,33,Germany,www.xeno-canto.org/61484/download,Delichon urbicum
-485337,C,136,Estonia,www.xeno-canto.org/485337/download,Delichon urbicum
-476426,C,4,Netherlands,www.xeno-canto.org/476426/download,Delichon urbicum
-377661,C,117,Spain,www.xeno-canto.org/377661/download,Delichon urbicum
-375520,C,6,Switzerland,www.xeno-canto.org/375520/download,Delichon urbicum
-375174,C,1,Switzerland,www.xeno-canto.org/375174/download,Delichon urbicum
-373350,C,5,Italy,www.xeno-canto.org/373350/download,Delichon urbicum
-372753,C,4,Switzerland,www.xeno-canto.org/372753/download,Delichon urbicum
-292197,C,56,United Kingdom,www.xeno-canto.org/292197/download,Delichon urbicum
-292173,C,31,United Kingdom,www.xeno-canto.org/292173/download,Delichon urbicum
-292172,C,21,United Kingdom,www.xeno-canto.org/292172/download,Delichon urbicum
-138515,C,25,Denmark,www.xeno-canto.org/138515/download,Delichon urbicum
-134651,C,77,Russian Federation,www.xeno-canto.org/134651/download,Delichon urbicum
-256506,D,187,United Kingdom,www.xeno-canto.org/256506/download,Delichon urbicum
-256505,D,249,United Kingdom,www.xeno-canto.org/256505/download,Delichon urbicum
-256503,D,247,United Kingdom,www.xeno-canto.org/256503/download,Delichon urbicum
-256502,D,250,United Kingdom,www.xeno-canto.org/256502/download,Delichon urbicum
-256500,D,250,United Kingdom,www.xeno-canto.org/256500/download,Delichon urbicum
-256494,D,178,United Kingdom,www.xeno-canto.org/256494/download,Delichon urbicum
-256493,D,249,United Kingdom,www.xeno-canto.org/256493/download,Delichon urbicum
-256492,D,240,United Kingdom,www.xeno-canto.org/256492/download,Delichon urbicum
-256490,D,250,United Kingdom,www.xeno-canto.org/256490/download,Delichon urbicum
-256489,D,250,United Kingdom,www.xeno-canto.org/256489/download,Delichon urbicum
+551812,no score,117,Switzerland,www.xeno-canto.org/551812/download,Linaria cannabina
 545484,no score,10,Spain,www.xeno-canto.org/545484/download,Linaria cannabina
 542804,no score,78,France,www.xeno-canto.org/542804/download,Linaria cannabina
 539660,no score,76,Finland,www.xeno-canto.org/539660/download,Linaria cannabina
@@ -594,7 +535,6 @@ iD,quality,length,country,url,birdName
 270311,A,40,France,www.xeno-canto.org/270311/download,Linaria cannabina
 262721,A,9,France,www.xeno-canto.org/262721/download,Linaria cannabina
 237257,A,43,Sweden,www.xeno-canto.org/237257/download,Linaria cannabina
-234546,A,65,Finland,www.xeno-canto.org/234546/download,Linaria cannabina
 205596,A,169,United Kingdom,www.xeno-canto.org/205596/download,Linaria cannabina
 200885,A,145,United Kingdom,www.xeno-canto.org/200885/download,Linaria cannabina
 196424,A,204,United Kingdom,www.xeno-canto.org/196424/download,Linaria cannabina
@@ -636,6 +576,7 @@ iD,quality,length,country,url,birdName
 35034,A,17,Netherlands,www.xeno-canto.org/35034/download,Linaria cannabina
 34683,A,115,Netherlands,www.xeno-canto.org/34683/download,Linaria cannabina
 32832,A,40,Netherlands,www.xeno-canto.org/32832/download,Linaria cannabina
+550213,B,51,Estonia,www.xeno-canto.org/550213/download,Linaria cannabina
 540780,B,23,Portugal,www.xeno-canto.org/540780/download,Linaria cannabina
 539552,B,59,Finland,www.xeno-canto.org/539552/download,Linaria cannabina
 522350,B,42,Spain,www.xeno-canto.org/522350/download,Linaria cannabina
@@ -781,6 +722,7 @@ iD,quality,length,country,url,birdName
 47344,B,13,Netherlands,www.xeno-canto.org/47344/download,Linaria cannabina
 42329,B,63,Sweden,www.xeno-canto.org/42329/download,Linaria cannabina
 31720,B,24,Spain,www.xeno-canto.org/31720/download,Linaria cannabina
+551569,C,21,United Kingdom,www.xeno-canto.org/551569/download,Linaria cannabina
 545896,C,53,United Kingdom,www.xeno-canto.org/545896/download,Linaria cannabina
 534502,C,73,Spain,www.xeno-canto.org/534502/download,Linaria cannabina
 514132,C,20,Serbia,www.xeno-canto.org/514132/download,Linaria cannabina
@@ -1013,6 +955,7 @@ iD,quality,length,country,url,birdName
 55009,C,34,France,www.xeno-canto.org/55009/download,Linaria cannabina
 45854,C,42,Germany,www.xeno-canto.org/45854/download,Linaria cannabina
 27401,C,48,United Kingdom,www.xeno-canto.org/27401/download,Linaria cannabina
+551175,D,407,United Kingdom,www.xeno-canto.org/551175/download,Linaria cannabina
 530828,D,17,Spain,www.xeno-canto.org/530828/download,Linaria cannabina
 528068,D,27,Poland,www.xeno-canto.org/528068/download,Linaria cannabina
 470552,D,21,Belgium,www.xeno-canto.org/470552/download,Linaria cannabina
@@ -1044,6 +987,11 @@ iD,quality,length,country,url,birdName
 146444,E,215,Russian Federation,www.xeno-canto.org/146444/download,Linaria cannabina
 548504,no score,5,Belgium,www.xeno-canto.org/548504/download,Regulus regulus
 533731,no score,221,France,www.xeno-canto.org/533731/download,Regulus regulus
+551471,A,31,Finland,www.xeno-canto.org/551471/download,Regulus regulus
+550832,A,59,United Kingdom,www.xeno-canto.org/550832/download,Regulus regulus
+550822,A,92,United Kingdom,www.xeno-canto.org/550822/download,Regulus regulus
+548814,A,11,Russian Federation,www.xeno-canto.org/548814/download,Regulus regulus
+548813,A,14,Russian Federation,www.xeno-canto.org/548813/download,Regulus regulus
 545995,A,40,Sweden,www.xeno-canto.org/545995/download,Regulus regulus
 545251,A,250,United Kingdom,www.xeno-canto.org/545251/download,Regulus regulus
 539364,A,57,France,www.xeno-canto.org/539364/download,Regulus regulus
@@ -1338,7 +1286,6 @@ iD,quality,length,country,url,birdName
 235075,B,17,Russian Federation,www.xeno-canto.org/235075/download,Regulus regulus
 235073,B,86,Russian Federation,www.xeno-canto.org/235073/download,Regulus regulus
 234384,B,25,United Kingdom,www.xeno-canto.org/234384/download,Regulus regulus
-233774,B,97,Finland,www.xeno-canto.org/233774/download,Regulus regulus
 225787,B,48,Germany,www.xeno-canto.org/225787/download,Regulus regulus
 211845,B,67,Germany,www.xeno-canto.org/211845/download,Regulus regulus
 211030,B,42,Sweden,www.xeno-canto.org/211030/download,Regulus regulus
@@ -1524,21 +1471,20 @@ iD,quality,length,country,url,birdName
 362326,E,54,Germany,www.xeno-canto.org/362326/download,Regulus regulus
 362321,E,285,Germany,www.xeno-canto.org/362321/download,Regulus regulus
 25821,E,42,United Kingdom,www.xeno-canto.org/25821/download,Regulus regulus
-541811,no score,53,France,www.xeno-canto.org/541811/download,Cyanistes caeruleus
-541513,no score,34,France,www.xeno-canto.org/541513/download,Cyanistes caeruleus
-539315,no score,19,France,www.xeno-canto.org/539315/download,Cyanistes caeruleus
-539309,no score,7,France,www.xeno-canto.org/539309/download,Cyanistes caeruleus
-538749,no score,44,Spain,www.xeno-canto.org/538749/download,Cyanistes caeruleus
-538194,no score,5,Netherlands,www.xeno-canto.org/538194/download,Cyanistes caeruleus
-538192,no score,3,Netherlands,www.xeno-canto.org/538192/download,Cyanistes caeruleus
-538191,no score,7,Spain,www.xeno-canto.org/538191/download,Cyanistes caeruleus
-537065,no score,27,Belgium,www.xeno-canto.org/537065/download,Cyanistes caeruleus
-536930,no score,10,Netherlands,www.xeno-canto.org/536930/download,Cyanistes caeruleus
+551833,no score,10,United Kingdom,www.xeno-canto.org/551833/download,Cyanistes caeruleus
+550902,no score,52,Italy,www.xeno-canto.org/550902/download,Cyanistes caeruleus
 527591,no score,52,Germany,www.xeno-canto.org/527591/download,Cyanistes caeruleus
+550510,A,32,United Kingdom,www.xeno-canto.org/550510/download,Cyanistes caeruleus
+550144,A,85,Russian Federation,www.xeno-canto.org/550144/download,Cyanistes caeruleus
+549881,A,23,Russian Federation,www.xeno-canto.org/549881/download,Cyanistes caeruleus
+549545,A,48,France,www.xeno-canto.org/549545/download,Cyanistes caeruleus
+549322,A,40,Belgium,www.xeno-canto.org/549322/download,Cyanistes caeruleus
+549311,A,19,Belgium,www.xeno-canto.org/549311/download,Cyanistes caeruleus
 545624,A,8,Belgium,www.xeno-canto.org/545624/download,Cyanistes caeruleus
 544923,A,71,Sweden,www.xeno-canto.org/544923/download,Cyanistes caeruleus
 544134,A,23,Spain,www.xeno-canto.org/544134/download,Cyanistes caeruleus
 543003,A,102,France,www.xeno-canto.org/543003/download,Cyanistes caeruleus
+541811,A,53,France,www.xeno-canto.org/541811/download,Cyanistes caeruleus
 541762,A,41,Norway,www.xeno-canto.org/541762/download,Cyanistes caeruleus
 541511,A,51,France,www.xeno-canto.org/541511/download,Cyanistes caeruleus
 541336,A,863,Italy,www.xeno-canto.org/541336/download,Cyanistes caeruleus
@@ -1546,7 +1492,6 @@ iD,quality,length,country,url,birdName
 540931,A,296,Netherlands,www.xeno-canto.org/540931/download,Cyanistes caeruleus
 540867,A,31,Portugal,www.xeno-canto.org/540867/download,Cyanistes caeruleus
 540603,A,121,Norway,www.xeno-canto.org/540603/download,Cyanistes caeruleus
-540571,A,76,Belgium,www.xeno-canto.org/540571/download,Cyanistes caeruleus
 540556,A,30,Poland,www.xeno-canto.org/540556/download,Cyanistes caeruleus
 540187,A,30,Belgium,www.xeno-canto.org/540187/download,Cyanistes caeruleus
 539853,A,16,France,www.xeno-canto.org/539853/download,Cyanistes caeruleus
@@ -1562,6 +1507,7 @@ iD,quality,length,country,url,birdName
 533328,A,115,France,www.xeno-canto.org/533328/download,Cyanistes caeruleus
 532003,A,29,Sweden,www.xeno-canto.org/532003/download,Cyanistes caeruleus
 531727,A,31,Sweden,www.xeno-canto.org/531727/download,Cyanistes caeruleus
+530818,A,29,Austria,www.xeno-canto.org/530818/download,Cyanistes caeruleus
 530815,A,30,Austria,www.xeno-canto.org/530815/download,Cyanistes caeruleus
 529764,A,116,Norway,www.xeno-canto.org/529764/download,Cyanistes caeruleus
 528670,A,10,France,www.xeno-canto.org/528670/download,Cyanistes caeruleus
@@ -1704,7 +1650,6 @@ iD,quality,length,country,url,birdName
 235147,A,15,France,www.xeno-canto.org/235147/download,Cyanistes caeruleus
 235145,A,246,France,www.xeno-canto.org/235145/download,Cyanistes caeruleus
 234048,A,23,Switzerland,www.xeno-canto.org/234048/download,Cyanistes caeruleus
-233452,A,127,Finland,www.xeno-canto.org/233452/download,Cyanistes caeruleus
 233168,A,30,United Kingdom,www.xeno-canto.org/233168/download,Cyanistes caeruleus
 218741,A,10,United Kingdom,www.xeno-canto.org/218741/download,Cyanistes caeruleus
 218739,A,10,United Kingdom,www.xeno-canto.org/218739/download,Cyanistes caeruleus
@@ -1798,17 +1743,27 @@ iD,quality,length,country,url,birdName
 28208,A,95,Sweden,www.xeno-canto.org/28208/download,Cyanistes caeruleus
 25853,A,18,Denmark,www.xeno-canto.org/25853/download,Cyanistes caeruleus
 25737,A,15,Denmark,www.xeno-canto.org/25737/download,Cyanistes caeruleus
+549460,B,20,Belgium,www.xeno-canto.org/549460/download,Cyanistes caeruleus
+548728,B,22,Germany,www.xeno-canto.org/548728/download,Cyanistes caeruleus
+548566,B,57,Poland,www.xeno-canto.org/548566/download,Cyanistes caeruleus
 545431,B,78,France,www.xeno-canto.org/545431/download,Cyanistes caeruleus
 544605,B,44,Sweden,www.xeno-canto.org/544605/download,Cyanistes caeruleus
 543730,B,41,Spain,www.xeno-canto.org/543730/download,Cyanistes caeruleus
 543729,B,13,Spain,www.xeno-canto.org/543729/download,Cyanistes caeruleus
 543710,B,43,Ukraine,www.xeno-canto.org/543710/download,Cyanistes caeruleus
+541513,B,34,France,www.xeno-canto.org/541513/download,Cyanistes caeruleus
+540571,B,76,Belgium,www.xeno-canto.org/540571/download,Cyanistes caeruleus
 540540,B,16,Poland,www.xeno-canto.org/540540/download,Cyanistes caeruleus
 539511,B,18,Poland,www.xeno-canto.org/539511/download,Cyanistes caeruleus
+539315,B,19,France,www.xeno-canto.org/539315/download,Cyanistes caeruleus
+539309,B,7,France,www.xeno-canto.org/539309/download,Cyanistes caeruleus
+538194,B,5,Netherlands,www.xeno-canto.org/538194/download,Cyanistes caeruleus
+538192,B,3,Netherlands,www.xeno-canto.org/538192/download,Cyanistes caeruleus
+538191,B,7,Spain,www.xeno-canto.org/538191/download,Cyanistes caeruleus
+536930,B,10,Netherlands,www.xeno-canto.org/536930/download,Cyanistes caeruleus
 536369,B,51,Poland,www.xeno-canto.org/536369/download,Cyanistes caeruleus
 536366,B,82,Poland,www.xeno-canto.org/536366/download,Cyanistes caeruleus
 533362,B,54,Finland,www.xeno-canto.org/533362/download,Cyanistes caeruleus
-530818,B,29,Austria,www.xeno-canto.org/530818/download,Cyanistes caeruleus
 524759,B,11,Portugal,www.xeno-canto.org/524759/download,Cyanistes caeruleus
 524532,B,46,Ireland,www.xeno-canto.org/524532/download,Cyanistes caeruleus
 522107,B,17,Spain,www.xeno-canto.org/522107/download,Cyanistes caeruleus
@@ -2082,6 +2037,9 @@ iD,quality,length,country,url,birdName
 36474,B,21,Netherlands,www.xeno-canto.org/36474/download,Cyanistes caeruleus
 32937,B,5,Netherlands,www.xeno-canto.org/32937/download,Cyanistes caeruleus
 29605,B,47,United Kingdom,www.xeno-canto.org/29605/download,Cyanistes caeruleus
+550145,C,64,Russian Federation,www.xeno-canto.org/550145/download,Cyanistes caeruleus
+550143,C,13,Russian Federation,www.xeno-canto.org/550143/download,Cyanistes caeruleus
+550142,C,32,Russian Federation,www.xeno-canto.org/550142/download,Cyanistes caeruleus
 545955,C,19,Netherlands,www.xeno-canto.org/545955/download,Cyanistes caeruleus
 545426,C,57,France,www.xeno-canto.org/545426/download,Cyanistes caeruleus
 544631,C,65,Poland,www.xeno-canto.org/544631/download,Cyanistes caeruleus
@@ -2584,7 +2542,6 @@ iD,quality,length,country,url,birdName
 106688,C,7,Russian Federation,www.xeno-canto.org/106688/download,Cyanistes caeruleus
 96952,C,26,Germany,www.xeno-canto.org/96952/download,Cyanistes caeruleus
 78075,C,4,France,www.xeno-canto.org/78075/download,Cyanistes caeruleus
-547171,D,5,United Kingdom,www.xeno-canto.org/547171/download,Cyanistes caeruleus
 537467,D,50,Poland,www.xeno-canto.org/537467/download,Cyanistes caeruleus
 536293,D,113,Poland,www.xeno-canto.org/536293/download,Cyanistes caeruleus
 536123,D,7,Poland,www.xeno-canto.org/536123/download,Cyanistes caeruleus
@@ -2646,16 +2603,25 @@ iD,quality,length,country,url,birdName
 171220,D,4,Spain,www.xeno-canto.org/171220/download,Cyanistes caeruleus
 171218,D,5,Spain,www.xeno-canto.org/171218/download,Cyanistes caeruleus
 66999,D,7,Germany,www.xeno-canto.org/66999/download,Cyanistes caeruleus
+549077,E,16,Belgium,www.xeno-canto.org/549077/download,Cyanistes caeruleus
+537065,E,27,Belgium,www.xeno-canto.org/537065/download,Cyanistes caeruleus
 355448,E,60,United Kingdom,www.xeno-canto.org/355448/download,Cyanistes caeruleus
 179527,E,17,Spain,www.xeno-canto.org/179527/download,Cyanistes caeruleus
+552426,no score,19,Sweden,www.xeno-canto.org/552426/download,Phylloscopus collybita
+552220,no score,23,Poland,www.xeno-canto.org/552220/download,Phylloscopus collybita
+552174,no score,6,United Kingdom,www.xeno-canto.org/552174/download,Phylloscopus collybita
+550487,no score,60,Poland,www.xeno-canto.org/550487/download,Phylloscopus collybita
+550332,no score,6,France,www.xeno-canto.org/550332/download,Phylloscopus collybita
+550331,no score,5,France,www.xeno-canto.org/550331/download,Phylloscopus collybita
+550112,no score,5,Sweden,www.xeno-canto.org/550112/download,Phylloscopus collybita
+549547,no score,42,France,www.xeno-canto.org/549547/download,Phylloscopus collybita
+548803,no score,5,Belgium,www.xeno-canto.org/548803/download,Phylloscopus collybita
 548392,no score,32,Germany,www.xeno-canto.org/548392/download,Phylloscopus collybita
 548152,no score,27,Germany,www.xeno-canto.org/548152/download,Phylloscopus collybita
 547371,no score,5,France,www.xeno-canto.org/547371/download,Phylloscopus collybita
 547370,no score,9,France,www.xeno-canto.org/547370/download,Phylloscopus collybita
 546979,no score,52,France,www.xeno-canto.org/546979/download,Phylloscopus collybita
 546957,no score,25,France,www.xeno-canto.org/546957/download,Phylloscopus collybita
-546091,no score,76,Poland,www.xeno-canto.org/546091/download,Phylloscopus collybita
-546088,no score,70,Poland,www.xeno-canto.org/546088/download,Phylloscopus collybita
 539828,no score,33,Germany,www.xeno-canto.org/539828/download,Phylloscopus collybita
 539119,no score,19,France,www.xeno-canto.org/539119/download,Phylloscopus collybita
 538289,no score,67,Netherlands,www.xeno-canto.org/538289/download,Phylloscopus collybita
@@ -2664,6 +2630,13 @@ iD,quality,length,country,url,birdName
 535498,no score,10,France,www.xeno-canto.org/535498/download,Phylloscopus collybita
 513685,no score,233,Russian Federation,www.xeno-canto.org/513685/download,Phylloscopus collybita
 513301,no score,111,Poland,www.xeno-canto.org/513301/download,Phylloscopus collybita
+552190,A,78,Finland,www.xeno-canto.org/552190/download,Phylloscopus collybita
+552152,A,67,Poland,www.xeno-canto.org/552152/download,Phylloscopus collybita
+550861,A,5,Ireland,www.xeno-canto.org/550861/download,Phylloscopus collybita
+550712,A,95,Belgium,www.xeno-canto.org/550712/download,Phylloscopus collybita
+550681,A,74,Denmark,www.xeno-canto.org/550681/download,Phylloscopus collybita
+549386,A,477,United Kingdom,www.xeno-canto.org/549386/download,Phylloscopus collybita
+549323,A,50,Belgium,www.xeno-canto.org/549323/download,Phylloscopus collybita
 548341,A,17,United Kingdom,www.xeno-canto.org/548341/download,Phylloscopus collybita
 548197,A,269,Netherlands,www.xeno-canto.org/548197/download,Phylloscopus collybita
 548195,A,45,Netherlands,www.xeno-canto.org/548195/download,Phylloscopus collybita
@@ -2824,6 +2797,7 @@ iD,quality,length,country,url,birdName
 361472,A,29,Belgium,www.xeno-canto.org/361472/download,Phylloscopus collybita
 361453,A,53,Belgium,www.xeno-canto.org/361453/download,Phylloscopus collybita
 361452,A,28,Belgium,www.xeno-canto.org/361452/download,Phylloscopus collybita
+360778,A,114,Poland,www.xeno-canto.org/360778/download,Phylloscopus collybita
 359482,A,38,Belgium,www.xeno-canto.org/359482/download,Phylloscopus collybita
 358633,A,91,France,www.xeno-canto.org/358633/download,Phylloscopus collybita
 347412,A,28,Estonia,www.xeno-canto.org/347412/download,Phylloscopus collybita
@@ -2920,13 +2894,11 @@ iD,quality,length,country,url,birdName
 236628,A,36,Russian Federation,www.xeno-canto.org/236628/download,Phylloscopus collybita
 236022,A,39,Germany,www.xeno-canto.org/236022/download,Phylloscopus collybita
 235206,A,38,Switzerland,www.xeno-canto.org/235206/download,Phylloscopus collybita
-235160,A,170,Finland,www.xeno-canto.org/235160/download,Phylloscopus collybita
 234815,A,46,Spain,www.xeno-canto.org/234815/download,Phylloscopus collybita
 234505,A,131,France,www.xeno-canto.org/234505/download,Phylloscopus collybita
 234501,A,321,France,www.xeno-canto.org/234501/download,Phylloscopus collybita
 234086,A,18,Belgium,www.xeno-canto.org/234086/download,Phylloscopus collybita
 233620,A,47,Belgium,www.xeno-canto.org/233620/download,Phylloscopus collybita
-233326,A,163,Finland,www.xeno-canto.org/233326/download,Phylloscopus collybita
 232896,A,15,Finland,www.xeno-canto.org/232896/download,Phylloscopus collybita
 232872,A,42,Finland,www.xeno-canto.org/232872/download,Phylloscopus collybita
 232808,A,37,Finland,www.xeno-canto.org/232808/download,Phylloscopus collybita
@@ -3124,8 +3096,13 @@ iD,quality,length,country,url,birdName
 26762,A,47,Sweden,www.xeno-canto.org/26762/download,Phylloscopus collybita
 25760,A,40,Denmark,www.xeno-canto.org/25760/download,Phylloscopus collybita
 19853,A,14,Kazakhstan,www.xeno-canto.org/19853/download,Phylloscopus collybita
+552049,B,61,Estonia,www.xeno-canto.org/552049/download,Phylloscopus collybita
+550489,B,54,Poland,www.xeno-canto.org/550489/download,Phylloscopus collybita
+550223,B,36,Netherlands,www.xeno-canto.org/550223/download,Phylloscopus collybita
 546706,B,41,Russian Federation,www.xeno-canto.org/546706/download,Phylloscopus collybita
 546705,B,17,Russian Federation,www.xeno-canto.org/546705/download,Phylloscopus collybita
+546091,B,76,Poland,www.xeno-canto.org/546091/download,Phylloscopus collybita
+546088,B,70,Poland,www.xeno-canto.org/546088/download,Phylloscopus collybita
 544275,B,68,Belgium,www.xeno-canto.org/544275/download,Phylloscopus collybita
 544274,B,20,United Kingdom,www.xeno-canto.org/544274/download,Phylloscopus collybita
 540530,B,79,Poland,www.xeno-canto.org/540530/download,Phylloscopus collybita
@@ -3400,7 +3377,6 @@ iD,quality,length,country,url,birdName
 361565,B,192,Germany,www.xeno-canto.org/361565/download,Phylloscopus collybita
 361422,B,43,France,www.xeno-canto.org/361422/download,Phylloscopus collybita
 360952,B,24,Hungary,www.xeno-canto.org/360952/download,Phylloscopus collybita
-360778,B,114,Poland,www.xeno-canto.org/360778/download,Phylloscopus collybita
 359429,B,500,Germany,www.xeno-canto.org/359429/download,Phylloscopus collybita
 359428,B,75,Germany,www.xeno-canto.org/359428/download,Phylloscopus collybita
 359427,B,76,Germany,www.xeno-canto.org/359427/download,Phylloscopus collybita
@@ -4381,13 +4357,21 @@ iD,quality,length,country,url,birdName
 287650,E,33,United Kingdom,www.xeno-canto.org/287650/download,Phylloscopus collybita
 253738,E,46,Spain,www.xeno-canto.org/253738/download,Phylloscopus collybita
 142399,E,11,Russian Federation,www.xeno-canto.org/142399/download,Phylloscopus collybita
+552406,no score,12,Italy,www.xeno-canto.org/552406/download,Carduelis carduelis
 548365,no score,42,France,www.xeno-canto.org/548365/download,Carduelis carduelis
-548107,no score,113,Poland,www.xeno-canto.org/548107/download,Carduelis carduelis
 548071,no score,41,Germany,www.xeno-canto.org/548071/download,Carduelis carduelis
 544721,no score,2,Spain,www.xeno-canto.org/544721/download,Carduelis carduelis
 541911,no score,16,France,www.xeno-canto.org/541911/download,Carduelis carduelis
 541909,no score,17,France,www.xeno-canto.org/541909/download,Carduelis carduelis
 473308,no score,112,Germany,www.xeno-canto.org/473308/download,Carduelis carduelis
+551994,A,111,Netherlands,www.xeno-canto.org/551994/download,Carduelis carduelis
+551244,A,69,Portugal,www.xeno-canto.org/551244/download,Carduelis carduelis
+551228,A,95,Portugal,www.xeno-canto.org/551228/download,Carduelis carduelis
+550551,A,148,Portugal,www.xeno-canto.org/550551/download,Carduelis carduelis
+550547,A,381,Portugal,www.xeno-canto.org/550547/download,Carduelis carduelis
+550540,A,142,Portugal,www.xeno-canto.org/550540/download,Carduelis carduelis
+549904,A,261,Russian Federation,www.xeno-canto.org/549904/download,Carduelis carduelis
+548937,A,25,Ukraine,www.xeno-canto.org/548937/download,Carduelis carduelis
 548498,A,159,Portugal,www.xeno-canto.org/548498/download,Carduelis carduelis
 547688,A,48,India,www.xeno-canto.org/547688/download,Carduelis carduelis
 547422,A,107,India,www.xeno-canto.org/547422/download,Carduelis carduelis
@@ -4549,6 +4533,9 @@ iD,quality,length,country,url,birdName
 40493,A,9,Spain,www.xeno-canto.org/40493/download,Carduelis carduelis
 34678,A,31,Netherlands,www.xeno-canto.org/34678/download,Carduelis carduelis
 27689,A,6,Sweden,www.xeno-canto.org/27689/download,Carduelis carduelis
+551231,B,212,Portugal,www.xeno-canto.org/551231/download,Carduelis carduelis
+548541,B,81,Portugal,www.xeno-canto.org/548541/download,Carduelis carduelis
+548107,B,113,Poland,www.xeno-canto.org/548107/download,Carduelis carduelis
 541775,B,124,Germany,www.xeno-canto.org/541775/download,Carduelis carduelis
 541532,B,67,Portugal,www.xeno-canto.org/541532/download,Carduelis carduelis
 535722,B,47,Romania,www.xeno-canto.org/535722/download,Carduelis carduelis
@@ -5015,6 +5002,7 @@ iD,quality,length,country,url,birdName
 32833,C,29,Netherlands,www.xeno-canto.org/32833/download,Carduelis carduelis
 28072,C,61,Sweden,www.xeno-canto.org/28072/download,Carduelis carduelis
 7274,C,44,Uruguay,www.xeno-canto.org/7274/download,Carduelis carduelis
+549510,D,22,United Kingdom,www.xeno-canto.org/549510/download,Carduelis carduelis
 538902,D,59,United Kingdom,www.xeno-canto.org/538902/download,Carduelis carduelis
 503634,D,7,Netherlands,www.xeno-canto.org/503634/download,Carduelis carduelis
 490432,D,128,United Kingdom,www.xeno-canto.org/490432/download,Carduelis carduelis
@@ -5047,26 +5035,13 @@ iD,quality,length,country,url,birdName
 488599,E,46,Germany,www.xeno-canto.org/488599/download,Carduelis carduelis
 288391,E,121,United Kingdom,www.xeno-canto.org/288391/download,Carduelis carduelis
 125356,E,38,Italy,www.xeno-canto.org/125356/download,Carduelis carduelis
-548482,no score,10,Belgium,www.xeno-canto.org/548482/download,Parus major
-548403,no score,57,Poland,www.xeno-canto.org/548403/download,Parus major
-548402,no score,11,Poland,www.xeno-canto.org/548402/download,Parus major
-548401,no score,51,Poland,www.xeno-canto.org/548401/download,Parus major
-548400,no score,112,Poland,www.xeno-canto.org/548400/download,Parus major
-548293,no score,5,France,www.xeno-canto.org/548293/download,Parus major
-548147,no score,17,Finland,www.xeno-canto.org/548147/download,Parus major
-546956,no score,25,France,www.xeno-canto.org/546956/download,Parus major
-546955,no score,17,France,www.xeno-canto.org/546955/download,Parus major
-545641,no score,45,Belgium,www.xeno-canto.org/545641/download,Parus major
-545640,no score,17,Belgium,www.xeno-canto.org/545640/download,Parus major
-545639,no score,21,Belgium,www.xeno-canto.org/545639/download,Parus major
-545636,no score,39,Belgium,www.xeno-canto.org/545636/download,Parus major
-545635,no score,58,Belgium,www.xeno-canto.org/545635/download,Parus major
-545634,no score,58,Belgium,www.xeno-canto.org/545634/download,Parus major
-545113,no score,8,Germany,www.xeno-canto.org/545113/download,Parus major
-544218,no score,121,Belgium,www.xeno-canto.org/544218/download,Parus major
-543199,no score,12,France,www.xeno-canto.org/543199/download,Parus major
-542425,no score,79,France,www.xeno-canto.org/542425/download,Parus major
-541793,no score,32,Spain,www.xeno-canto.org/541793/download,Parus major
+552407,no score,16,Italy,www.xeno-canto.org/552407/download,Parus major
+552399,no score,5,Italy,www.xeno-canto.org/552399/download,Parus major
+552085,no score,41,United Kingdom,www.xeno-canto.org/552085/download,Parus major
+551785,no score,13,France,www.xeno-canto.org/551785/download,Parus major
+550892,no score,27,Italy,www.xeno-canto.org/550892/download,Parus major
+550596,no score,64,Portugal,www.xeno-canto.org/550596/download,Parus major
+549869,no score,37,Italy,www.xeno-canto.org/549869/download,Parus major
 540081,no score,26,France,www.xeno-canto.org/540081/download,Parus major
 538761,no score,193,Spain,www.xeno-canto.org/538761/download,Parus major
 538268,no score,33,Netherlands,www.xeno-canto.org/538268/download,Parus major
@@ -5080,17 +5055,26 @@ iD,quality,length,country,url,birdName
 534248,no score,45,Spain,www.xeno-canto.org/534248/download,Parus major
 534236,no score,65,Spain,www.xeno-canto.org/534236/download,Parus major
 533705,no score,59,France,www.xeno-canto.org/533705/download,Parus major
-533700,no score,90,France,www.xeno-canto.org/533700/download,Parus major
 532302,no score,50,Poland,www.xeno-canto.org/532302/download,Parus major
 532299,no score,46,Poland,www.xeno-canto.org/532299/download,Parus major
-529108,no score,48,Portugal,www.xeno-canto.org/529108/download,Parus major
 521232,no score,41,Poland,www.xeno-canto.org/521232/download,Parus major
+551735,A,5,Belgium,www.xeno-canto.org/551735/download,Parus major
+551734,A,9,Belgium,www.xeno-canto.org/551734/download,Parus major
+551692,A,33,Belgium,www.xeno-canto.org/551692/download,Parus major
+551381,A,16,Belgium,www.xeno-canto.org/551381/download,Parus major
+550313,A,66,France,www.xeno-canto.org/550313/download,Parus major
+550137,A,31,Russian Federation,www.xeno-canto.org/550137/download,Parus major
+549661,A,175,France,www.xeno-canto.org/549661/download,Parus major
+548938,A,12,Ukraine,www.xeno-canto.org/548938/download,Parus major
+548758,A,37,Netherlands,www.xeno-canto.org/548758/download,Parus major
+548400,A,112,Poland,www.xeno-canto.org/548400/download,Parus major
 548331,A,139,Norway,www.xeno-canto.org/548331/download,Parus major
 547405,A,73,Belgium,www.xeno-canto.org/547405/download,Parus major
 546749,A,23,Russian Federation,www.xeno-canto.org/546749/download,Parus major
 546258,A,21,Spain,www.xeno-canto.org/546258/download,Parus major
 545849,A,787,France,www.xeno-canto.org/545849/download,Parus major
 545839,A,279,France,www.xeno-canto.org/545839/download,Parus major
+545641,A,45,Belgium,www.xeno-canto.org/545641/download,Parus major
 545633,A,21,Belgium,www.xeno-canto.org/545633/download,Parus major
 544309,A,18,United Kingdom,www.xeno-canto.org/544309/download,Parus major
 543828,A,61,Denmark,www.xeno-canto.org/543828/download,Parus major
@@ -5144,14 +5128,17 @@ iD,quality,length,country,url,birdName
 534262,A,90,Norway,www.xeno-canto.org/534262/download,Parus major
 534063,A,69,Finland,www.xeno-canto.org/534063/download,Parus major
 533769,A,13,Sweden,www.xeno-canto.org/533769/download,Parus major
+533700,A,90,France,www.xeno-canto.org/533700/download,Parus major
 533349,A,61,Finland,www.xeno-canto.org/533349/download,Parus major
 533251,A,61,Ukraine,www.xeno-canto.org/533251/download,Parus major
 532137,A,143,Norway,www.xeno-canto.org/532137/download,Parus major
+531961,A,50,Norway,www.xeno-canto.org/531961/download,Parus major
 531126,A,49,Poland,www.xeno-canto.org/531126/download,Parus major
 529801,A,89,Spain,www.xeno-canto.org/529801/download,Parus major
 529779,A,32,Norway,www.xeno-canto.org/529779/download,Parus major
 529773,A,44,Norway,www.xeno-canto.org/529773/download,Parus major
 529767,A,29,France,www.xeno-canto.org/529767/download,Parus major
+529108,A,48,Portugal,www.xeno-canto.org/529108/download,Parus major
 528730,A,51,France,www.xeno-canto.org/528730/download,Parus major
 528433,A,59,France,www.xeno-canto.org/528433/download,Parus major
 528077,A,45,Spain,www.xeno-canto.org/528077/download,Parus major
@@ -5472,8 +5459,6 @@ iD,quality,length,country,url,birdName
 235079,A,20,France,www.xeno-canto.org/235079/download,Parus major
 234250,A,25,Sweden,www.xeno-canto.org/234250/download,Parus major
 234248,A,18,Sweden,www.xeno-canto.org/234248/download,Parus major
-233453,A,66,Finland,www.xeno-canto.org/233453/download,Parus major
-233449,A,45,Finland,www.xeno-canto.org/233449/download,Parus major
 227393,A,52,Cyprus,www.xeno-canto.org/227393/download,Parus major
 218149,A,93,Spain,www.xeno-canto.org/218149/download,Parus major
 218147,A,54,Spain,www.xeno-canto.org/218147/download,Parus major
@@ -5587,6 +5572,7 @@ iD,quality,length,country,url,birdName
 129324,A,175,Netherlands,www.xeno-canto.org/129324/download,Parus major
 129323,A,175,Netherlands,www.xeno-canto.org/129323/download,Parus major
 129215,A,55,Poland,www.xeno-canto.org/129215/download,Parus major
+129195,A,117,Poland,www.xeno-canto.org/129195/download,Parus major
 128957,A,36,France,www.xeno-canto.org/128957/download,Parus major
 128702,A,124,Netherlands,www.xeno-canto.org/128702/download,Parus major
 128699,A,17,Germany,www.xeno-canto.org/128699/download,Parus major
@@ -5609,6 +5595,7 @@ iD,quality,length,country,url,birdName
 122931,A,239,Poland,www.xeno-canto.org/122931/download,Parus major
 122930,A,42,Poland,www.xeno-canto.org/122930/download,Parus major
 122926,A,141,Poland,www.xeno-canto.org/122926/download,Parus major
+122905,A,109,Poland,www.xeno-canto.org/122905/download,Parus major
 122771,A,22,Poland,www.xeno-canto.org/122771/download,Parus major
 122555,A,36,United Kingdom,www.xeno-canto.org/122555/download,Parus major
 122470,A,270,Poland,www.xeno-canto.org/122470/download,Parus major
@@ -5697,6 +5684,15 @@ iD,quality,length,country,url,birdName
 25672,A,27,Denmark,www.xeno-canto.org/25672/download,Parus major
 25670,A,33,Denmark,www.xeno-canto.org/25670/download,Parus major
 25669,A,30,Denmark,www.xeno-canto.org/25669/download,Parus major
+550661,B,37,France,www.xeno-canto.org/550661/download,Parus major
+550141,B,48,Russian Federation,www.xeno-canto.org/550141/download,Parus major
+550136,B,64,Russian Federation,www.xeno-canto.org/550136/download,Parus major
+549897,B,24,Sweden,www.xeno-canto.org/549897/download,Parus major
+549893,B,97,Russian Federation,www.xeno-canto.org/549893/download,Parus major
+549892,B,79,Russian Federation,www.xeno-canto.org/549892/download,Parus major
+548482,B,10,Belgium,www.xeno-canto.org/548482/download,Parus major
+548402,B,11,Poland,www.xeno-canto.org/548402/download,Parus major
+548401,B,51,Poland,www.xeno-canto.org/548401/download,Parus major
 546910,B,30,France,www.xeno-canto.org/546910/download,Parus major
 546878,B,19,United Kingdom,www.xeno-canto.org/546878/download,Parus major
 546497,B,35,France,www.xeno-canto.org/546497/download,Parus major
@@ -5705,6 +5701,11 @@ iD,quality,length,country,url,birdName
 545838,B,90,France,www.xeno-canto.org/545838/download,Parus major
 545823,B,90,France,www.xeno-canto.org/545823/download,Parus major
 545819,B,185,France,www.xeno-canto.org/545819/download,Parus major
+545640,B,17,Belgium,www.xeno-canto.org/545640/download,Parus major
+545639,B,21,Belgium,www.xeno-canto.org/545639/download,Parus major
+545636,B,39,Belgium,www.xeno-canto.org/545636/download,Parus major
+545635,B,58,Belgium,www.xeno-canto.org/545635/download,Parus major
+545634,B,58,Belgium,www.xeno-canto.org/545634/download,Parus major
 545372,B,62,France,www.xeno-canto.org/545372/download,Parus major
 544291,B,39,Ireland,www.xeno-canto.org/544291/download,Parus major
 543791,B,80,Netherlands,www.xeno-canto.org/543791/download,Parus major
@@ -5715,6 +5716,7 @@ iD,quality,length,country,url,birdName
 542181,B,88,France,www.xeno-canto.org/542181/download,Parus major
 541981,B,19,France,www.xeno-canto.org/541981/download,Parus major
 541864,B,34,France,www.xeno-canto.org/541864/download,Parus major
+541793,B,32,Spain,www.xeno-canto.org/541793/download,Parus major
 540546,B,120,Poland,www.xeno-canto.org/540546/download,Parus major
 539189,B,37,Belgium,www.xeno-canto.org/539189/download,Parus major
 538937,B,28,United Kingdom,www.xeno-canto.org/538937/download,Parus major
@@ -5735,7 +5737,6 @@ iD,quality,length,country,url,birdName
 533210,B,60,France,www.xeno-canto.org/533210/download,Parus major
 532227,B,66,France,www.xeno-canto.org/532227/download,Parus major
 532226,B,73,France,www.xeno-canto.org/532226/download,Parus major
-531961,B,50,Norway,www.xeno-canto.org/531961/download,Parus major
 530923,B,34,Estonia,www.xeno-canto.org/530923/download,Parus major
 530673,B,161,Portugal,www.xeno-canto.org/530673/download,Parus major
 530476,B,23,Netherlands,www.xeno-canto.org/530476/download,Parus major
@@ -6382,7 +6383,6 @@ iD,quality,length,country,url,birdName
 130228,B,77,Russian Federation,www.xeno-canto.org/130228/download,Parus major
 129350,B,12,France,www.xeno-canto.org/129350/download,Parus major
 129330,B,15,France,www.xeno-canto.org/129330/download,Parus major
-129195,B,117,Poland,www.xeno-canto.org/129195/download,Parus major
 129184,B,162,Germany,www.xeno-canto.org/129184/download,Parus major
 129183,B,20,Germany,www.xeno-canto.org/129183/download,Parus major
 129182,B,61,Germany,www.xeno-canto.org/129182/download,Parus major
@@ -6395,7 +6395,6 @@ iD,quality,length,country,url,birdName
 126873,B,46,Russian Federation,www.xeno-canto.org/126873/download,Parus major
 126465,B,19,Denmark,www.xeno-canto.org/126465/download,Parus major
 123087,B,3,Poland,www.xeno-canto.org/123087/download,Parus major
-122905,B,109,Poland,www.xeno-canto.org/122905/download,Parus major
 121034,B,186,Germany,www.xeno-canto.org/121034/download,Parus major
 121009,B,112,Poland,www.xeno-canto.org/121009/download,Parus major
 120978,B,13,United Kingdom,www.xeno-canto.org/120978/download,Parus major
@@ -6440,9 +6439,14 @@ iD,quality,length,country,url,birdName
 25668,B,21,Denmark,www.xeno-canto.org/25668/download,Parus major
 25667,B,14,Denmark,www.xeno-canto.org/25667/download,Parus major
 25526,B,63,Poland,www.xeno-canto.org/25526/download,Parus major
+548403,C,57,Poland,www.xeno-canto.org/548403/download,Parus major
+546956,C,25,France,www.xeno-canto.org/546956/download,Parus major
+546955,C,17,France,www.xeno-canto.org/546955/download,Parus major
 546040,C,7,United Kingdom,www.xeno-canto.org/546040/download,Parus major
+545113,C,8,Germany,www.xeno-canto.org/545113/download,Parus major
 543659,C,498,United Kingdom,www.xeno-canto.org/543659/download,Parus major
-542116,C,21,Netherlands,www.xeno-canto.org/542116/download,Parus major
+543199,C,12,France,www.xeno-canto.org/543199/download,Parus major
+542425,C,79,France,www.xeno-canto.org/542425/download,Parus major
 541800,C,50,United Kingdom,www.xeno-canto.org/541800/download,Parus major
 539879,C,31,Netherlands,www.xeno-canto.org/539879/download,Parus major
 537126,C,62,France,www.xeno-canto.org/537126/download,Parus major
@@ -7036,6 +7040,9 @@ iD,quality,length,country,url,birdName
 43769,C,59,Germany,www.xeno-canto.org/43769/download,Parus major
 43572,C,25,Turkey,www.xeno-canto.org/43572/download,Parus major
 29009,C,36,Sweden,www.xeno-canto.org/29009/download,Parus major
+548293,D,5,France,www.xeno-canto.org/548293/download,Parus major
+548147,D,17,Finland,www.xeno-canto.org/548147/download,Parus major
+544218,D,121,Belgium,www.xeno-canto.org/544218/download,Parus major
 542947,D,27,Sweden,www.xeno-canto.org/542947/download,Parus major
 539257,D,78,United Kingdom,www.xeno-canto.org/539257/download,Parus major
 529824,D,10,United Kingdom,www.xeno-canto.org/529824/download,Parus major
@@ -7190,6 +7197,14 @@ iD,quality,length,country,url,birdName
 310554,E,23,France,www.xeno-canto.org/310554/download,Parus major
 240204,E,14,Poland,www.xeno-canto.org/240204/download,Parus major
 201673,E,1,Italy,www.xeno-canto.org/201673/download,Parus major
+548809,no score,37,Belgium,www.xeno-canto.org/548809/download,Fringilla coelebs
+548808,no score,37,Belgium,www.xeno-canto.org/548808/download,Fringilla coelebs
+548807,no score,3,Belgium,www.xeno-canto.org/548807/download,Fringilla coelebs
+548806,no score,3,Belgium,www.xeno-canto.org/548806/download,Fringilla coelebs
+548804,no score,35,Belgium,www.xeno-canto.org/548804/download,Fringilla coelebs
+548793,no score,3,Belgium,www.xeno-canto.org/548793/download,Fringilla coelebs
+548792,no score,3,Belgium,www.xeno-canto.org/548792/download,Fringilla coelebs
+548791,no score,3,Belgium,www.xeno-canto.org/548791/download,Fringilla coelebs
 548065,no score,35,Germany,www.xeno-canto.org/548065/download,Fringilla coelebs
 547972,no score,5,Belgium,www.xeno-canto.org/547972/download,Fringilla coelebs
 547176,no score,14,France,www.xeno-canto.org/547176/download,Fringilla coelebs
@@ -7222,6 +7237,9 @@ iD,quality,length,country,url,birdName
 512407,no score,43,Poland,www.xeno-canto.org/512407/download,Fringilla coelebs
 512404,no score,112,Poland,www.xeno-canto.org/512404/download,Fringilla coelebs
 512402,no score,29,Poland,www.xeno-canto.org/512402/download,Fringilla coelebs
+550422,A,41,Poland,www.xeno-canto.org/550422/download,Fringilla coelebs
+550013,A,12,Belgium,www.xeno-canto.org/550013/download,Fringilla coelebs
+548889,A,59,Ukraine,www.xeno-canto.org/548889/download,Fringilla coelebs
 547404,A,62,Belgium,www.xeno-canto.org/547404/download,Fringilla coelebs
 547402,A,4,Belgium,www.xeno-canto.org/547402/download,Fringilla coelebs
 547401,A,20,Belgium,www.xeno-canto.org/547401/download,Fringilla coelebs
@@ -7579,7 +7597,6 @@ iD,quality,length,country,url,birdName
 236448,A,48,Norway,www.xeno-canto.org/236448/download,Fringilla coelebs
 235418,A,40,Estonia,www.xeno-canto.org/235418/download,Fringilla coelebs
 234918,A,69,France,www.xeno-canto.org/234918/download,Fringilla coelebs
-233421,A,119,Finland,www.xeno-canto.org/233421/download,Fringilla coelebs
 232851,A,21,United Kingdom,www.xeno-canto.org/232851/download,Fringilla coelebs
 216970,A,25,Italy,www.xeno-canto.org/216970/download,Fringilla coelebs
 216163,A,16,Spain,www.xeno-canto.org/216163/download,Fringilla coelebs
@@ -7812,6 +7829,8 @@ iD,quality,length,country,url,birdName
 26025,A,35,Denmark,www.xeno-canto.org/26025/download,Fringilla coelebs
 25645,A,26,Denmark,www.xeno-canto.org/25645/download,Fringilla coelebs
 25089,A,37,Finland,www.xeno-canto.org/25089/download,Fringilla coelebs
+549212,B,84,United Kingdom,www.xeno-canto.org/549212/download,Fringilla coelebs
+548567,B,33,Poland,www.xeno-canto.org/548567/download,Fringilla coelebs
 546700,B,33,Russian Federation,www.xeno-canto.org/546700/download,Fringilla coelebs
 544896,B,171,France,www.xeno-canto.org/544896/download,Fringilla coelebs
 544409,B,18,United Kingdom,www.xeno-canto.org/544409/download,Fringilla coelebs
@@ -8252,7 +8271,6 @@ iD,quality,length,country,url,birdName
 234339,B,24,Estonia,www.xeno-canto.org/234339/download,Fringilla coelebs
 234163,B,33,Germany,www.xeno-canto.org/234163/download,Fringilla coelebs
 234032,B,246,United Kingdom,www.xeno-canto.org/234032/download,Fringilla coelebs
-233714,B,37,Finland,www.xeno-canto.org/233714/download,Fringilla coelebs
 233139,B,34,United Kingdom,www.xeno-canto.org/233139/download,Fringilla coelebs
 233138,B,107,United Kingdom,www.xeno-canto.org/233138/download,Fringilla coelebs
 232998,B,84,United Kingdom,www.xeno-canto.org/232998/download,Fringilla coelebs
@@ -8511,6 +8529,18 @@ iD,quality,length,country,url,birdName
 29753,B,90,United Kingdom,www.xeno-canto.org/29753/download,Fringilla coelebs
 28239,B,119,Netherlands,www.xeno-canto.org/28239/download,Fringilla coelebs
 24829,B,3,Netherlands,www.xeno-canto.org/24829/download,Fringilla coelebs
+552218,C,29,Netherlands,www.xeno-canto.org/552218/download,Fringilla coelebs
+552026,C,172,United Kingdom,www.xeno-canto.org/552026/download,Fringilla coelebs
+552025,C,69,United Kingdom,www.xeno-canto.org/552025/download,Fringilla coelebs
+552024,C,272,United Kingdom,www.xeno-canto.org/552024/download,Fringilla coelebs
+552022,C,110,United Kingdom,www.xeno-canto.org/552022/download,Fringilla coelebs
+551158,C,351,United Kingdom,www.xeno-canto.org/551158/download,Fringilla coelebs
+551156,C,11,United Kingdom,www.xeno-canto.org/551156/download,Fringilla coelebs
+551150,C,25,United Kingdom,www.xeno-canto.org/551150/download,Fringilla coelebs
+551144,C,19,United Kingdom,www.xeno-canto.org/551144/download,Fringilla coelebs
+548988,C,398,United Kingdom,www.xeno-canto.org/548988/download,Fringilla coelebs
+548980,C,636,United Kingdom,www.xeno-canto.org/548980/download,Fringilla coelebs
+548979,C,35,United Kingdom,www.xeno-canto.org/548979/download,Fringilla coelebs
 547198,C,300,United Kingdom,www.xeno-canto.org/547198/download,Fringilla coelebs
 546554,C,79,United Kingdom,www.xeno-canto.org/546554/download,Fringilla coelebs
 546552,C,51,United Kingdom,www.xeno-canto.org/546552/download,Fringilla coelebs
@@ -9398,6 +9428,7 @@ iD,quality,length,country,url,birdName
 78080,C,22,France,www.xeno-canto.org/78080/download,Fringilla coelebs
 76102,C,6,Germany,www.xeno-canto.org/76102/download,Fringilla coelebs
 25891,C,10,Denmark,www.xeno-canto.org/25891/download,Fringilla coelebs
+550806,D,16,Belgium,www.xeno-canto.org/550806/download,Fringilla coelebs
 542295,D,33,United Kingdom,www.xeno-canto.org/542295/download,Fringilla coelebs
 541799,D,62,United Kingdom,www.xeno-canto.org/541799/download,Fringilla coelebs
 539888,D,43,United Kingdom,www.xeno-canto.org/539888/download,Fringilla coelebs
@@ -9504,6 +9535,8 @@ iD,quality,length,country,url,birdName
 473762,E,74,Ukraine,www.xeno-canto.org/473762/download,Fringilla coelebs
 188475,E,16,Italy,www.xeno-canto.org/188475/download,Fringilla coelebs
 142382,E,11,Russian Federation,www.xeno-canto.org/142382/download,Fringilla coelebs
+550269,no score,20,Finland,www.xeno-canto.org/550269/download,Erithacus rubecula
+548519,no score,28,France,www.xeno-canto.org/548519/download,Erithacus rubecula
 548489,no score,32,Belgium,www.xeno-canto.org/548489/download,Erithacus rubecula
 548119,no score,107,Germany,www.xeno-canto.org/548119/download,Erithacus rubecula
 546987,no score,26,France,www.xeno-canto.org/546987/download,Erithacus rubecula
@@ -9562,6 +9595,8 @@ iD,quality,length,country,url,birdName
 516189,no score,1,Spain,www.xeno-canto.org/516189/download,Erithacus rubecula
 514130,no score,31,Serbia,www.xeno-canto.org/514130/download,Erithacus rubecula
 512584,no score,63,France,www.xeno-canto.org/512584/download,Erithacus rubecula
+550307,A,50,France,www.xeno-canto.org/550307/download,Erithacus rubecula
+549329,A,77,Belgium,www.xeno-canto.org/549329/download,Erithacus rubecula
 548037,A,76,Finland,www.xeno-canto.org/548037/download,Erithacus rubecula
 547348,A,36,Sweden,www.xeno-canto.org/547348/download,Erithacus rubecula
 546325,A,78,United Kingdom,www.xeno-canto.org/546325/download,Erithacus rubecula
@@ -9612,7 +9647,6 @@ iD,quality,length,country,url,birdName
 513490,A,35,United Kingdom,www.xeno-canto.org/513490/download,Erithacus rubecula
 513315,A,103,Netherlands,www.xeno-canto.org/513315/download,Erithacus rubecula
 513314,A,58,Netherlands,www.xeno-canto.org/513314/download,Erithacus rubecula
-510912,A,20,France,www.xeno-canto.org/510912/download,Erithacus rubecula
 510893,A,206,France,www.xeno-canto.org/510893/download,Erithacus rubecula
 510542,A,44,France,www.xeno-canto.org/510542/download,Erithacus rubecula
 510540,A,13,France,www.xeno-canto.org/510540/download,Erithacus rubecula
@@ -9962,7 +9996,6 @@ iD,quality,length,country,url,birdName
 235968,A,50,France,www.xeno-canto.org/235968/download,Erithacus rubecula
 235734,A,594,Spain,www.xeno-canto.org/235734/download,Erithacus rubecula
 234111,A,72,Poland,www.xeno-canto.org/234111/download,Erithacus rubecula
-234072,A,298,Finland,www.xeno-canto.org/234072/download,Erithacus rubecula
 233572,A,55,Germany,www.xeno-canto.org/233572/download,Erithacus rubecula
 217267,A,421,Netherlands,www.xeno-canto.org/217267/download,Erithacus rubecula
 216175,A,65,Spain,www.xeno-canto.org/216175/download,Erithacus rubecula
@@ -10136,6 +10169,9 @@ iD,quality,length,country,url,birdName
 27552,A,50,Sweden,www.xeno-canto.org/27552/download,Erithacus rubecula
 25639,A,59,Denmark,www.xeno-canto.org/25639/download,Erithacus rubecula
 25638,A,61,Denmark,www.xeno-canto.org/25638/download,Erithacus rubecula
+550127,B,247,Russian Federation,www.xeno-canto.org/550127/download,Erithacus rubecula
+549932,B,263,United Kingdom,www.xeno-canto.org/549932/download,Erithacus rubecula
+548983,B,73,Russian Federation,www.xeno-canto.org/548983/download,Erithacus rubecula
 546699,B,62,Russian Federation,www.xeno-canto.org/546699/download,Erithacus rubecula
 546698,B,325,Russian Federation,www.xeno-canto.org/546698/download,Erithacus rubecula
 546459,B,74,France,www.xeno-canto.org/546459/download,Erithacus rubecula
@@ -10165,6 +10201,7 @@ iD,quality,length,country,url,birdName
 512091,B,117,Portugal,www.xeno-canto.org/512091/download,Erithacus rubecula
 512080,B,33,Portugal,www.xeno-canto.org/512080/download,Erithacus rubecula
 511903,B,9,Poland,www.xeno-canto.org/511903/download,Erithacus rubecula
+510912,B,20,France,www.xeno-canto.org/510912/download,Erithacus rubecula
 510541,B,72,France,www.xeno-canto.org/510541/download,Erithacus rubecula
 508321,B,17,Poland,www.xeno-canto.org/508321/download,Erithacus rubecula
 508261,B,105,Poland,www.xeno-canto.org/508261/download,Erithacus rubecula
@@ -10639,11 +10676,14 @@ iD,quality,length,country,url,birdName
 25753,B,31,Denmark,www.xeno-canto.org/25753/download,Erithacus rubecula
 25640,B,34,Denmark,www.xeno-canto.org/25640/download,Erithacus rubecula
 25137,B,34,Finland,www.xeno-canto.org/25137/download,Erithacus rubecula
+551160,C,5,United Kingdom,www.xeno-canto.org/551160/download,Erithacus rubecula
+551153,C,280,United Kingdom,www.xeno-canto.org/551153/download,Erithacus rubecula
 545897,C,45,United Kingdom,www.xeno-canto.org/545897/download,Erithacus rubecula
 544822,C,90,United Kingdom,www.xeno-canto.org/544822/download,Erithacus rubecula
 543653,C,77,United Kingdom,www.xeno-canto.org/543653/download,Erithacus rubecula
 543651,C,254,United Kingdom,www.xeno-canto.org/543651/download,Erithacus rubecula
 542316,C,69,Spain,www.xeno-canto.org/542316/download,Erithacus rubecula
+542116,C,21,Netherlands,www.xeno-canto.org/542116/download,Erithacus rubecula
 541783,C,42,United Kingdom,www.xeno-canto.org/541783/download,Erithacus rubecula
 541083,C,84,United Kingdom,www.xeno-canto.org/541083/download,Erithacus rubecula
 541082,C,109,United Kingdom,www.xeno-canto.org/541082/download,Erithacus rubecula
@@ -11313,6 +11353,7 @@ iD,quality,length,country,url,birdName
 192196,D,24,Germany,www.xeno-canto.org/192196/download,Erithacus rubecula
 168460,D,36,Spain,www.xeno-canto.org/168460/download,Erithacus rubecula
 132565,D,73,Russian Federation,www.xeno-canto.org/132565/download,Erithacus rubecula
+549435,E,52,Belgium,www.xeno-canto.org/549435/download,Erithacus rubecula
 506492,E,5,Spain,www.xeno-canto.org/506492/download,Erithacus rubecula
 503644,E,9,Netherlands,www.xeno-canto.org/503644/download,Erithacus rubecula
 479169,E,94,Ireland,www.xeno-canto.org/479169/download,Erithacus rubecula
@@ -11329,9 +11370,13 @@ iD,quality,length,country,url,birdName
 236804,E,104,Poland,www.xeno-canto.org/236804/download,Erithacus rubecula
 209413,E,24,Spain,www.xeno-canto.org/209413/download,Erithacus rubecula
 167387,E,109,Spain,www.xeno-canto.org/167387/download,Erithacus rubecula
-548061,no score,9,Poland,www.xeno-canto.org/548061/download,Passer domesticus
-538771,no score,28,Spain,www.xeno-canto.org/538771/download,Passer domesticus
-536388,no score,45,France,www.xeno-canto.org/536388/download,Passer domesticus
+550742,A,15,Spain,www.xeno-canto.org/550742/download,Passer domesticus
+550006,A,31,Belgium,www.xeno-canto.org/550006/download,Passer domesticus
+550004,A,31,Belgium,www.xeno-canto.org/550004/download,Passer domesticus
+548756,A,26,Netherlands,www.xeno-canto.org/548756/download,Passer domesticus
+548755,A,472,Netherlands,www.xeno-canto.org/548755/download,Passer domesticus
+548753,A,41,Netherlands,www.xeno-canto.org/548753/download,Passer domesticus
+548752,A,58,Netherlands,www.xeno-canto.org/548752/download,Passer domesticus
 547014,A,75,Finland,www.xeno-canto.org/547014/download,Passer domesticus
 546519,A,56,France,www.xeno-canto.org/546519/download,Passer domesticus
 546206,A,36,France,www.xeno-canto.org/546206/download,Passer domesticus
@@ -11348,6 +11393,7 @@ iD,quality,length,country,url,birdName
 542231,A,17,Mexico,www.xeno-canto.org/542231/download,Passer domesticus
 541041,A,10,United Kingdom,www.xeno-canto.org/541041/download,Passer domesticus
 539455,A,6,France,www.xeno-canto.org/539455/download,Passer domesticus
+538771,A,28,Spain,www.xeno-canto.org/538771/download,Passer domesticus
 538635,A,63,Poland,www.xeno-canto.org/538635/download,Passer domesticus
 537768,A,19,Poland,www.xeno-canto.org/537768/download,Passer domesticus
 537083,A,1197,Netherlands,www.xeno-canto.org/537083/download,Passer domesticus
@@ -11448,8 +11494,8 @@ iD,quality,length,country,url,birdName
 239375,A,39,Sweden,www.xeno-canto.org/239375/download,Passer domesticus
 236834,A,19,Norway,www.xeno-canto.org/236834/download,Passer domesticus
 236476,A,66,Norway,www.xeno-canto.org/236476/download,Passer domesticus
-233433,A,77,Finland,www.xeno-canto.org/233433/download,Passer domesticus
 210486,A,143,Poland,www.xeno-canto.org/210486/download,Passer domesticus
+210466,A,400,Poland,www.xeno-canto.org/210466/download,Passer domesticus
 209059,A,15,Finland,www.xeno-canto.org/209059/download,Passer domesticus
 192306,A,58,United States,www.xeno-canto.org/192306/download,Passer domesticus
 192305,A,64,United States,www.xeno-canto.org/192305/download,Passer domesticus
@@ -11469,6 +11515,7 @@ iD,quality,length,country,url,birdName
 105519,A,189,Germany,www.xeno-canto.org/105519/download,Passer domesticus
 100530,A,60,Mozambique,www.xeno-canto.org/100530/download,Passer domesticus
 100117,A,81,Germany,www.xeno-canto.org/100117/download,Passer domesticus
+93487,A,153,Poland,www.xeno-canto.org/93487/download,Passer domesticus
 90864,A,49,Morocco,www.xeno-canto.org/90864/download,Passer domesticus
 79055,A,21,Germany,www.xeno-canto.org/79055/download,Passer domesticus
 76898,A,9,Spain,www.xeno-canto.org/76898/download,Passer domesticus
@@ -11557,7 +11604,6 @@ iD,quality,length,country,url,birdName
 217419,B,41,Romania,www.xeno-canto.org/217419/download,Passer domesticus
 217078,B,47,France,www.xeno-canto.org/217078/download,Passer domesticus
 211238,B,30,Finland,www.xeno-canto.org/211238/download,Passer domesticus
-210466,B,400,Poland,www.xeno-canto.org/210466/download,Passer domesticus
 208884,B,35,France,www.xeno-canto.org/208884/download,Passer domesticus
 208234,B,52,Denmark,www.xeno-canto.org/208234/download,Passer domesticus
 203380,B,53,Mauritius,www.xeno-canto.org/203380/download,Passer domesticus
@@ -11596,7 +11642,6 @@ iD,quality,length,country,url,birdName
 104649,B,23,Poland,www.xeno-canto.org/104649/download,Passer domesticus
 100531,B,36,Mozambique,www.xeno-canto.org/100531/download,Passer domesticus
 99499,B,14,Netherlands,www.xeno-canto.org/99499/download,Passer domesticus
-93487,B,153,Poland,www.xeno-canto.org/93487/download,Passer domesticus
 90865,B,43,Morocco,www.xeno-canto.org/90865/download,Passer domesticus
 75149,B,18,Germany,www.xeno-canto.org/75149/download,Passer domesticus
 75148,B,32,Germany,www.xeno-canto.org/75148/download,Passer domesticus
@@ -11612,9 +11657,11 @@ iD,quality,length,country,url,birdName
 35491,B,28,India,www.xeno-canto.org/35491/download,Passer domesticus
 29766,B,53,United Kingdom,www.xeno-canto.org/29766/download,Passer domesticus
 548274,C,29,Cuba,www.xeno-canto.org/548274/download,Passer domesticus
+548061,C,9,Poland,www.xeno-canto.org/548061/download,Passer domesticus
 545036,C,21,Netherlands,www.xeno-canto.org/545036/download,Passer domesticus
 541827,C,18,France,www.xeno-canto.org/541827/download,Passer domesticus
 537246,C,15,Egypt,www.xeno-canto.org/537246/download,Passer domesticus
+536388,C,45,France,www.xeno-canto.org/536388/download,Passer domesticus
 523333,C,107,Germany,www.xeno-canto.org/523333/download,Passer domesticus
 517592,C,7,Brazil,www.xeno-canto.org/517592/download,Passer domesticus
 511087,C,14,Iran,www.xeno-canto.org/511087/download,Passer domesticus
@@ -11767,214 +11814,6 @@ iD,quality,length,country,url,birdName
 506636,E,125,Germany,www.xeno-canto.org/506636/download,Passer domesticus
 454088,E,338,Portugal,www.xeno-canto.org/454088/download,Passer domesticus
 309048,E,26,New Zealand,www.xeno-canto.org/309048/download,Passer domesticus
-513192,no score,78,Poland,www.xeno-canto.org/513192/download,Passer montanus
-546124,A,164,Ukraine,www.xeno-canto.org/546124/download,Passer montanus
-544273,A,0,Poland,www.xeno-canto.org/544273/download,Passer montanus
-539480,A,83,Ukraine,www.xeno-canto.org/539480/download,Passer montanus
-539478,A,37,Ukraine,www.xeno-canto.org/539478/download,Passer montanus
-539477,A,6,Ukraine,www.xeno-canto.org/539477/download,Passer montanus
-539475,A,210,Ukraine,www.xeno-canto.org/539475/download,Passer montanus
-497905,A,108,Germany,www.xeno-canto.org/497905/download,Passer montanus
-497883,A,161,Germany,www.xeno-canto.org/497883/download,Passer montanus
-497882,A,91,Germany,www.xeno-canto.org/497882/download,Passer montanus
-497877,A,48,Germany,www.xeno-canto.org/497877/download,Passer montanus
-482765,A,102,Russian Federation,www.xeno-canto.org/482765/download,Passer montanus
-472346,A,18,Sweden,www.xeno-canto.org/472346/download,Passer montanus
-469538,A,30,Ukraine,www.xeno-canto.org/469538/download,Passer montanus
-462606,A,44,Poland,www.xeno-canto.org/462606/download,Passer montanus
-462144,A,174,Poland,www.xeno-canto.org/462144/download,Passer montanus
-449635,A,237,Sweden,www.xeno-canto.org/449635/download,Passer montanus
-442224,A,45,Malaysia,www.xeno-canto.org/442224/download,Passer montanus
-442223,A,57,Malaysia,www.xeno-canto.org/442223/download,Passer montanus
-442222,A,44,Malaysia,www.xeno-canto.org/442222/download,Passer montanus
-440503,A,61,United Kingdom,www.xeno-canto.org/440503/download,Passer montanus
-440407,A,72,United Kingdom,www.xeno-canto.org/440407/download,Passer montanus
-409374,A,781,Ukraine,www.xeno-canto.org/409374/download,Passer montanus
-409372,A,247,Ukraine,www.xeno-canto.org/409372/download,Passer montanus
-408107,A,81,Ukraine,www.xeno-canto.org/408107/download,Passer montanus
-407477,A,81,Ukraine,www.xeno-canto.org/407477/download,Passer montanus
-407476,A,72,Ukraine,www.xeno-canto.org/407476/download,Passer montanus
-407416,A,55,Sweden,www.xeno-canto.org/407416/download,Passer montanus
-405151,A,75,Russian Federation,www.xeno-canto.org/405151/download,Passer montanus
-404958,A,29,Poland,www.xeno-canto.org/404958/download,Passer montanus
-402850,A,32,Serbia,www.xeno-canto.org/402850/download,Passer montanus
-402358,A,100,Ukraine,www.xeno-canto.org/402358/download,Passer montanus
-379726,A,21,Netherlands,www.xeno-canto.org/379726/download,Passer montanus
-364614,A,102,Germany,www.xeno-canto.org/364614/download,Passer montanus
-360701,A,19,Germany,www.xeno-canto.org/360701/download,Passer montanus
-349825,A,9,Finland,www.xeno-canto.org/349825/download,Passer montanus
-342634,A,169,Russian Federation,www.xeno-canto.org/342634/download,Passer montanus
-315800,A,26,France,www.xeno-canto.org/315800/download,Passer montanus
-310097,A,79,Russian Federation,www.xeno-canto.org/310097/download,Passer montanus
-310096,A,88,Russian Federation,www.xeno-canto.org/310096/download,Passer montanus
-310095,A,16,Russian Federation,www.xeno-canto.org/310095/download,Passer montanus
-308343,A,69,Poland,www.xeno-canto.org/308343/download,Passer montanus
-286043,A,30,Japan,www.xeno-canto.org/286043/download,Passer montanus
-286041,A,46,Japan,www.xeno-canto.org/286041/download,Passer montanus
-285345,A,29,Finland,www.xeno-canto.org/285345/download,Passer montanus
-285341,A,19,Finland,www.xeno-canto.org/285341/download,Passer montanus
-281741,A,45,Belgium,www.xeno-canto.org/281741/download,Passer montanus
-268292,A,100,Russian Federation,www.xeno-canto.org/268292/download,Passer montanus
-263967,A,40,Norway,www.xeno-canto.org/263967/download,Passer montanus
-244028,A,40,Norway,www.xeno-canto.org/244028/download,Passer montanus
-241997,A,104,Norway,www.xeno-canto.org/241997/download,Passer montanus
-241996,A,22,Norway,www.xeno-canto.org/241996/download,Passer montanus
-213537,A,64,Poland,www.xeno-canto.org/213537/download,Passer montanus
-210487,A,74,Poland,www.xeno-canto.org/210487/download,Passer montanus
-185713,A,70,Uzbekistan,www.xeno-canto.org/185713/download,Passer montanus
-174233,A,31,Italy,www.xeno-canto.org/174233/download,Passer montanus
-171076,A,40,Russian Federation,www.xeno-canto.org/171076/download,Passer montanus
-168663,A,111,Poland,www.xeno-canto.org/168663/download,Passer montanus
-143465,A,184,Germany,www.xeno-canto.org/143465/download,Passer montanus
-121014,A,8,Poland,www.xeno-canto.org/121014/download,Passer montanus
-91173,A,23,Poland,www.xeno-canto.org/91173/download,Passer montanus
-90122,A,116,Germany,www.xeno-canto.org/90122/download,Passer montanus
-90121,A,89,Germany,www.xeno-canto.org/90121/download,Passer montanus
-43764,A,52,Poland,www.xeno-canto.org/43764/download,Passer montanus
-31868,A,100,Spain,www.xeno-canto.org/31868/download,Passer montanus
-517767,B,1073,Germany,www.xeno-canto.org/517767/download,Passer montanus
-509523,B,14,Romania,www.xeno-canto.org/509523/download,Passer montanus
-498224,B,396,Germany,www.xeno-canto.org/498224/download,Passer montanus
-492951,B,72,Russian Federation,www.xeno-canto.org/492951/download,Passer montanus
-492950,B,119,Russian Federation,www.xeno-canto.org/492950/download,Passer montanus
-485568,B,26,Russian Federation,www.xeno-canto.org/485568/download,Passer montanus
-485379,B,90,Netherlands,www.xeno-canto.org/485379/download,Passer montanus
-481094,B,41,Ukraine,www.xeno-canto.org/481094/download,Passer montanus
-476905,B,97,Ukraine,www.xeno-canto.org/476905/download,Passer montanus
-476903,B,13,Ukraine,www.xeno-canto.org/476903/download,Passer montanus
-466473,B,56,Czech Republic,www.xeno-canto.org/466473/download,Passer montanus
-402410,B,13,India,www.xeno-canto.org/402410/download,Passer montanus
-402409,B,33,India,www.xeno-canto.org/402409/download,Passer montanus
-398320,B,34,Thailand,www.xeno-canto.org/398320/download,Passer montanus
-379401,B,33,China,www.xeno-canto.org/379401/download,Passer montanus
-375907,B,87,Thailand,www.xeno-canto.org/375907/download,Passer montanus
-375443,B,31,Netherlands,www.xeno-canto.org/375443/download,Passer montanus
-375442,B,22,Netherlands,www.xeno-canto.org/375442/download,Passer montanus
-375441,B,10,Netherlands,www.xeno-canto.org/375441/download,Passer montanus
-369802,B,43,Germany,www.xeno-canto.org/369802/download,Passer montanus
-369667,B,340,Germany,www.xeno-canto.org/369667/download,Passer montanus
-359949,B,10,Malaysia,www.xeno-canto.org/359949/download,Passer montanus
-330381,B,76,Germany,www.xeno-canto.org/330381/download,Passer montanus
-326331,B,140,Germany,www.xeno-canto.org/326331/download,Passer montanus
-326323,B,158,Germany,www.xeno-canto.org/326323/download,Passer montanus
-305985,B,67,Ukraine,www.xeno-canto.org/305985/download,Passer montanus
-286042,B,47,Japan,www.xeno-canto.org/286042/download,Passer montanus
-268291,B,359,Russian Federation,www.xeno-canto.org/268291/download,Passer montanus
-268289,B,126,Russian Federation,www.xeno-canto.org/268289/download,Passer montanus
-268288,B,41,Russian Federation,www.xeno-canto.org/268288/download,Passer montanus
-252610,B,30,Hungary,www.xeno-canto.org/252610/download,Passer montanus
-212156,B,40,China,www.xeno-canto.org/212156/download,Passer montanus
-208924,B,60,Finland,www.xeno-canto.org/208924/download,Passer montanus
-207531,B,210,United Kingdom,www.xeno-canto.org/207531/download,Passer montanus
-202313,B,182,Russian Federation,www.xeno-canto.org/202313/download,Passer montanus
-201570,B,292,Russian Federation,www.xeno-canto.org/201570/download,Passer montanus
-187034,B,15,United Kingdom,www.xeno-canto.org/187034/download,Passer montanus
-182224,B,42,Russian Federation,www.xeno-canto.org/182224/download,Passer montanus
-181218,B,31,Denmark,www.xeno-canto.org/181218/download,Passer montanus
-175712,B,93,Russian Federation,www.xeno-canto.org/175712/download,Passer montanus
-170373,B,85,Russian Federation,www.xeno-canto.org/170373/download,Passer montanus
-170317,B,119,Russian Federation,www.xeno-canto.org/170317/download,Passer montanus
-169706,B,27,Russian Federation,www.xeno-canto.org/169706/download,Passer montanus
-168534,B,74,Russian Federation,www.xeno-canto.org/168534/download,Passer montanus
-168255,B,36,Russian Federation,www.xeno-canto.org/168255/download,Passer montanus
-165929,B,129,Germany,www.xeno-canto.org/165929/download,Passer montanus
-163351,B,185,Finland,www.xeno-canto.org/163351/download,Passer montanus
-132561,B,25,Russian Federation,www.xeno-canto.org/132561/download,Passer montanus
-130227,B,8,Russian Federation,www.xeno-canto.org/130227/download,Passer montanus
-130226,B,40,Russian Federation,www.xeno-canto.org/130226/download,Passer montanus
-35046,B,23,Netherlands,www.xeno-canto.org/35046/download,Passer montanus
-25901,B,91,Denmark,www.xeno-canto.org/25901/download,Passer montanus
-25857,B,12,Denmark,www.xeno-canto.org/25857/download,Passer montanus
-25575,B,26,Denmark,www.xeno-canto.org/25575/download,Passer montanus
-545658,C,80,Germany,www.xeno-canto.org/545658/download,Passer montanus
-534059,C,78,Poland,www.xeno-canto.org/534059/download,Passer montanus
-517776,C,1219,Germany,www.xeno-canto.org/517776/download,Passer montanus
-517772,C,1369,Germany,www.xeno-canto.org/517772/download,Passer montanus
-517769,C,46,Germany,www.xeno-canto.org/517769/download,Passer montanus
-517766,C,1212,Germany,www.xeno-canto.org/517766/download,Passer montanus
-513789,C,10,Spain,www.xeno-canto.org/513789/download,Passer montanus
-509802,C,11,United Kingdom,www.xeno-canto.org/509802/download,Passer montanus
-507624,C,140,Germany,www.xeno-canto.org/507624/download,Passer montanus
-507621,C,29,Germany,www.xeno-canto.org/507621/download,Passer montanus
-507615,C,18,Germany,www.xeno-canto.org/507615/download,Passer montanus
-506890,C,46,Germany,www.xeno-canto.org/506890/download,Passer montanus
-506631,C,132,Germany,www.xeno-canto.org/506631/download,Passer montanus
-506630,C,110,Germany,www.xeno-canto.org/506630/download,Passer montanus
-495314,C,123,Russian Federation,www.xeno-canto.org/495314/download,Passer montanus
-494884,C,230,Russian Federation,www.xeno-canto.org/494884/download,Passer montanus
-476906,C,120,Ukraine,www.xeno-canto.org/476906/download,Passer montanus
-474007,C,87,Indonesia,www.xeno-canto.org/474007/download,Passer montanus
-474005,C,37,Indonesia,www.xeno-canto.org/474005/download,Passer montanus
-462693,C,41,United Kingdom,www.xeno-canto.org/462693/download,Passer montanus
-461275,C,25,United Kingdom,www.xeno-canto.org/461275/download,Passer montanus
-457925,C,13,Russian Federation,www.xeno-canto.org/457925/download,Passer montanus
-444107,C,82,United Kingdom,www.xeno-canto.org/444107/download,Passer montanus
-437122,C,20,United Kingdom,www.xeno-canto.org/437122/download,Passer montanus
-430210,C,223,United Kingdom,www.xeno-canto.org/430210/download,Passer montanus
-399717,C,87,United Kingdom,www.xeno-canto.org/399717/download,Passer montanus
-381268,C,374,United Kingdom,www.xeno-canto.org/381268/download,Passer montanus
-373142,C,7,Switzerland,www.xeno-canto.org/373142/download,Passer montanus
-369795,C,148,Germany,www.xeno-canto.org/369795/download,Passer montanus
-369794,C,433,Germany,www.xeno-canto.org/369794/download,Passer montanus
-369792,C,198,Germany,www.xeno-canto.org/369792/download,Passer montanus
-369778,C,164,Germany,www.xeno-canto.org/369778/download,Passer montanus
-369777,C,73,Germany,www.xeno-canto.org/369777/download,Passer montanus
-369666,C,67,Germany,www.xeno-canto.org/369666/download,Passer montanus
-369660,C,404,Germany,www.xeno-canto.org/369660/download,Passer montanus
-368876,C,21,Germany,www.xeno-canto.org/368876/download,Passer montanus
-347807,C,25,Philippines,www.xeno-canto.org/347807/download,Passer montanus
-330872,C,55,United Kingdom,www.xeno-canto.org/330872/download,Passer montanus
-330871,C,41,United Kingdom,www.xeno-canto.org/330871/download,Passer montanus
-330770,C,126,United Kingdom,www.xeno-canto.org/330770/download,Passer montanus
-330769,C,14,United Kingdom,www.xeno-canto.org/330769/download,Passer montanus
-330695,C,20,United Kingdom,www.xeno-canto.org/330695/download,Passer montanus
-330694,C,55,United Kingdom,www.xeno-canto.org/330694/download,Passer montanus
-321451,C,59,Germany,www.xeno-canto.org/321451/download,Passer montanus
-304502,C,251,United Kingdom,www.xeno-canto.org/304502/download,Passer montanus
-304497,C,100,United Kingdom,www.xeno-canto.org/304497/download,Passer montanus
-304494,C,160,United Kingdom,www.xeno-canto.org/304494/download,Passer montanus
-303887,C,187,United Kingdom,www.xeno-canto.org/303887/download,Passer montanus
-295546,C,431,Spain,www.xeno-canto.org/295546/download,Passer montanus
-288139,C,14,Portugal,www.xeno-canto.org/288139/download,Passer montanus
-288138,C,6,Portugal,www.xeno-canto.org/288138/download,Passer montanus
-284176,C,120,United Kingdom,www.xeno-canto.org/284176/download,Passer montanus
-265602,C,74,United Kingdom,www.xeno-canto.org/265602/download,Passer montanus
-265597,C,96,United Kingdom,www.xeno-canto.org/265597/download,Passer montanus
-265596,C,253,United Kingdom,www.xeno-canto.org/265596/download,Passer montanus
-263579,C,61,Spain,www.xeno-canto.org/263579/download,Passer montanus
-263117,C,41,Spain,www.xeno-canto.org/263117/download,Passer montanus
-243327,C,62,Germany,www.xeno-canto.org/243327/download,Passer montanus
-233210,C,28,United Kingdom,www.xeno-canto.org/233210/download,Passer montanus
-233140,C,93,United Kingdom,www.xeno-canto.org/233140/download,Passer montanus
-214995,C,145,United Kingdom,www.xeno-canto.org/214995/download,Passer montanus
-214994,C,72,United Kingdom,www.xeno-canto.org/214994/download,Passer montanus
-214898,C,65,United Kingdom,www.xeno-canto.org/214898/download,Passer montanus
-210878,C,88,United States,www.xeno-canto.org/210878/download,Passer montanus
-207707,C,183,United Kingdom,www.xeno-canto.org/207707/download,Passer montanus
-207691,C,33,United Kingdom,www.xeno-canto.org/207691/download,Passer montanus
-207533,C,39,United Kingdom,www.xeno-canto.org/207533/download,Passer montanus
-202314,C,201,Russian Federation,www.xeno-canto.org/202314/download,Passer montanus
-186042,C,59,United Kingdom,www.xeno-canto.org/186042/download,Passer montanus
-178807,C,134,Poland,www.xeno-canto.org/178807/download,Passer montanus
-170732,C,153,Germany,www.xeno-canto.org/170732/download,Passer montanus
-169704,C,332,Russian Federation,www.xeno-canto.org/169704/download,Passer montanus
-169683,C,298,Russian Federation,www.xeno-canto.org/169683/download,Passer montanus
-169679,C,280,Russian Federation,www.xeno-canto.org/169679/download,Passer montanus
-169669,C,171,Russian Federation,www.xeno-canto.org/169669/download,Passer montanus
-169668,C,141,Russian Federation,www.xeno-canto.org/169668/download,Passer montanus
-168260,C,116,Russian Federation,www.xeno-canto.org/168260/download,Passer montanus
-168259,C,19,Russian Federation,www.xeno-canto.org/168259/download,Passer montanus
-165640,C,41,Germany,www.xeno-canto.org/165640/download,Passer montanus
-132141,C,34,Germany,www.xeno-canto.org/132141/download,Passer montanus
-128817,C,46,Malaysia,www.xeno-canto.org/128817/download,Passer montanus
-126833,C,51,Russian Federation,www.xeno-canto.org/126833/download,Passer montanus
-67002,C,25,Germany,www.xeno-canto.org/67002/download,Passer montanus
-523335,D,61,Germany,www.xeno-canto.org/523335/download,Passer montanus
-519407,D,310,Germany,www.xeno-canto.org/519407/download,Passer montanus
-296953,D,213,United Kingdom,www.xeno-canto.org/296953/download,Passer montanus
-296951,D,250,United Kingdom,www.xeno-canto.org/296951/download,Passer montanus
-210876,D,151,United States,www.xeno-canto.org/210876/download,Passer montanus
-170192,D,14,Taiwan,www.xeno-canto.org/170192/download,Passer montanus
 548069,no score,14,Germany,www.xeno-canto.org/548069/download,Hirundo rustica
 543509,A,125,Spain,www.xeno-canto.org/543509/download,Hirundo rustica
 511682,A,20,Sweden,www.xeno-canto.org/511682/download,Hirundo rustica
@@ -12084,8 +11923,6 @@ iD,quality,length,country,url,birdName
 254488,A,194,United States,www.xeno-canto.org/254488/download,Hirundo rustica
 252931,A,16,South Africa,www.xeno-canto.org/252931/download,Hirundo rustica
 247817,A,10,Poland,www.xeno-canto.org/247817/download,Hirundo rustica
-233467,A,149,Finland,www.xeno-canto.org/233467/download,Hirundo rustica
-233287,A,157,Finland,www.xeno-canto.org/233287/download,Hirundo rustica
 213364,A,63,Finland,www.xeno-canto.org/213364/download,Hirundo rustica
 208241,A,29,Denmark,www.xeno-canto.org/208241/download,Hirundo rustica
 208240,A,54,Denmark,www.xeno-canto.org/208240/download,Hirundo rustica
@@ -12554,14 +12391,17 @@ iD,quality,length,country,url,birdName
 375087,E,475,United Kingdom,www.xeno-canto.org/375087/download,Hirundo rustica
 373085,E,360,United Kingdom,www.xeno-canto.org/373085/download,Hirundo rustica
 545506,no score,20,Netherlands,www.xeno-canto.org/545506/download,Columba palumbus
-544724,no score,13,Poland,www.xeno-canto.org/544724/download,Columba palumbus
 542562,no score,13,Poland,www.xeno-canto.org/542562/download,Columba palumbus
-538746,no score,63,Spain,www.xeno-canto.org/538746/download,Columba palumbus
 536576,no score,97,France,www.xeno-canto.org/536576/download,Columba palumbus
 536549,no score,284,Poland,www.xeno-canto.org/536549/download,Columba palumbus
 534761,no score,38,Germany,www.xeno-canto.org/534761/download,Columba palumbus
 528315,no score,13,Netherlands,www.xeno-canto.org/528315/download,Columba palumbus
 527792,no score,10,Netherlands,www.xeno-canto.org/527792/download,Columba palumbus
+550864,A,10,Ireland,www.xeno-canto.org/550864/download,Columba palumbus
+548936,A,20,Ukraine,www.xeno-canto.org/548936/download,Columba palumbus
+548932,A,40,Ukraine,www.xeno-canto.org/548932/download,Columba palumbus
+548931,A,121,Ukraine,www.xeno-canto.org/548931/download,Columba palumbus
+548891,A,27,Ukraine,www.xeno-canto.org/548891/download,Columba palumbus
 548212,A,14,United Kingdom,www.xeno-canto.org/548212/download,Columba palumbus
 547925,A,190,Norway,www.xeno-canto.org/547925/download,Columba palumbus
 543716,A,53,United Kingdom,www.xeno-canto.org/543716/download,Columba palumbus
@@ -12636,9 +12476,7 @@ iD,quality,length,country,url,birdName
 256677,A,17,Italy,www.xeno-canto.org/256677/download,Columba palumbus
 246655,A,66,Poland,www.xeno-canto.org/246655/download,Columba palumbus
 236815,A,10,Finland,www.xeno-canto.org/236815/download,Columba palumbus
-235158,A,39,Latvia,www.xeno-canto.org/235158/download,Columba palumbus
 235149,A,13,United Kingdom,www.xeno-canto.org/235149/download,Columba palumbus
-233568,A,103,Finland,www.xeno-canto.org/233568/download,Columba palumbus
 228541,A,31,Finland,www.xeno-canto.org/228541/download,Columba palumbus
 215787,A,11,Germany,www.xeno-canto.org/215787/download,Columba palumbus
 213347,A,39,Finland,www.xeno-canto.org/213347/download,Columba palumbus
@@ -12674,9 +12512,11 @@ iD,quality,length,country,url,birdName
 42432,A,15,Sweden,www.xeno-canto.org/42432/download,Columba palumbus
 35082,A,16,Netherlands,www.xeno-canto.org/35082/download,Columba palumbus
 545846,B,26,France,www.xeno-canto.org/545846/download,Columba palumbus
+544724,B,13,Poland,www.xeno-canto.org/544724/download,Columba palumbus
 543703,B,20,Germany,www.xeno-canto.org/543703/download,Columba palumbus
 542075,B,58,Finland,www.xeno-canto.org/542075/download,Columba palumbus
 540538,B,11,Poland,www.xeno-canto.org/540538/download,Columba palumbus
+538770,B,19,Spain,www.xeno-canto.org/538770/download,Columba palumbus
 538466,B,91,Estonia,www.xeno-canto.org/538466/download,Columba palumbus
 537050,B,83,France,www.xeno-canto.org/537050/download,Columba palumbus
 513452,B,138,Belgium,www.xeno-canto.org/513452/download,Columba palumbus
@@ -12780,6 +12620,7 @@ iD,quality,length,country,url,birdName
 26548,B,22,United Kingdom,www.xeno-canto.org/26548/download,Columba palumbus
 543293,C,13,Poland,www.xeno-canto.org/543293/download,Columba palumbus
 542702,C,20,United Kingdom,www.xeno-canto.org/542702/download,Columba palumbus
+538746,C,63,Spain,www.xeno-canto.org/538746/download,Columba palumbus
 521841,C,423,Netherlands,www.xeno-canto.org/521841/download,Columba palumbus
 515371,C,6,Portugal,www.xeno-canto.org/515371/download,Columba palumbus
 507546,C,15,Germany,www.xeno-canto.org/507546/download,Columba palumbus
@@ -12833,6 +12674,7 @@ iD,quality,length,country,url,birdName
 35081,C,10,Netherlands,www.xeno-canto.org/35081/download,Columba palumbus
 30961,C,11,Netherlands,www.xeno-canto.org/30961/download,Columba palumbus
 25926,C,12,Denmark,www.xeno-canto.org/25926/download,Columba palumbus
+549417,D,12,Belgium,www.xeno-canto.org/549417/download,Columba palumbus
 515370,D,4,Portugal,www.xeno-canto.org/515370/download,Columba palumbus
 469297,D,41,Portugal,www.xeno-canto.org/469297/download,Columba palumbus
 352536,D,21,Germany,www.xeno-canto.org/352536/download,Columba palumbus
@@ -12850,160 +12692,9 @@ iD,quality,length,country,url,birdName
 372454,E,52,Ukraine,www.xeno-canto.org/372454/download,Columba palumbus
 368419,E,180,Ukraine,www.xeno-canto.org/368419/download,Columba palumbus
 351994,E,333,Germany,www.xeno-canto.org/351994/download,Columba palumbus
-547588,A,115,India,www.xeno-canto.org/547588/download,Columba livia
-513867,A,22,Ecuador,www.xeno-canto.org/513867/download,Columba livia
-485507,A,20,United States,www.xeno-canto.org/485507/download,Columba livia
-462611,A,38,Poland,www.xeno-canto.org/462611/download,Columba livia
-460854,A,67,United States,www.xeno-canto.org/460854/download,Columba livia
-460673,A,4,Poland,www.xeno-canto.org/460673/download,Columba livia
-446270,A,40,Brazil,www.xeno-canto.org/446270/download,Columba livia
-436507,A,18,Brazil,www.xeno-canto.org/436507/download,Columba livia
-342145,A,13,Sweden,www.xeno-canto.org/342145/download,Columba livia
-315410,A,40,United States,www.xeno-canto.org/315410/download,Columba livia
-306692,A,10,Ecuador,www.xeno-canto.org/306692/download,Columba livia
-270097,A,12,France,www.xeno-canto.org/270097/download,Columba livia
-269763,A,32,Russian Federation,www.xeno-canto.org/269763/download,Columba livia
-269762,A,115,Russian Federation,www.xeno-canto.org/269762/download,Columba livia
-217672,A,34,Russian Federation,www.xeno-canto.org/217672/download,Columba livia
-200010,A,513,Netherlands,www.xeno-canto.org/200010/download,Columba livia
-92264,A,40,Netherlands,www.xeno-canto.org/92264/download,Columba livia
-48676,A,18,Argentina,www.xeno-canto.org/48676/download,Columba livia
-539567,B,165,United Kingdom,www.xeno-canto.org/539567/download,Columba livia
-536371,B,19,Poland,www.xeno-canto.org/536371/download,Columba livia
-536370,B,13,Poland,www.xeno-canto.org/536370/download,Columba livia
-503270,B,26,United States,www.xeno-canto.org/503270/download,Columba livia
-502200,B,28,Sweden,www.xeno-canto.org/502200/download,Columba livia
-500494,B,8,United Kingdom,www.xeno-canto.org/500494/download,Columba livia
-488175,B,28,United States,www.xeno-canto.org/488175/download,Columba livia
-488174,B,12,United States,www.xeno-canto.org/488174/download,Columba livia
-488173,B,17,United States,www.xeno-canto.org/488173/download,Columba livia
-488172,B,47,United States,www.xeno-canto.org/488172/download,Columba livia
-486873,B,33,United States,www.xeno-canto.org/486873/download,Columba livia
-486872,B,42,United States,www.xeno-canto.org/486872/download,Columba livia
-486871,B,24,United States,www.xeno-canto.org/486871/download,Columba livia
-486870,B,11,United States,www.xeno-canto.org/486870/download,Columba livia
-486869,B,22,United States,www.xeno-canto.org/486869/download,Columba livia
-485506,B,148,United States,www.xeno-canto.org/485506/download,Columba livia
-463507,B,22,Israel,www.xeno-canto.org/463507/download,Columba livia
-453907,B,202,United States,www.xeno-canto.org/453907/download,Columba livia
-448944,B,82,United States,www.xeno-canto.org/448944/download,Columba livia
-380349,B,15,Germany,www.xeno-canto.org/380349/download,Columba livia
-364890,B,13,United Kingdom,www.xeno-canto.org/364890/download,Columba livia
-360365,B,35,Morocco,www.xeno-canto.org/360365/download,Columba livia
-349161,B,32,United States,www.xeno-canto.org/349161/download,Columba livia
-349160,B,25,United States,www.xeno-canto.org/349160/download,Columba livia
-348079,B,4,Finland,www.xeno-canto.org/348079/download,Columba livia
-299839,B,9,Finland,www.xeno-canto.org/299839/download,Columba livia
-269761,B,43,Russian Federation,www.xeno-canto.org/269761/download,Columba livia
-257593,B,48,Ecuador,www.xeno-canto.org/257593/download,Columba livia
-257592,B,43,Ecuador,www.xeno-canto.org/257592/download,Columba livia
-217673,B,23,Russian Federation,www.xeno-canto.org/217673/download,Columba livia
-207424,B,19,United States,www.xeno-canto.org/207424/download,Columba livia
-199202,B,22,Mauritius,www.xeno-canto.org/199202/download,Columba livia
-197468,B,131,Netherlands,www.xeno-canto.org/197468/download,Columba livia
-165836,B,12,India,www.xeno-canto.org/165836/download,Columba livia
-149044,B,9,Spain,www.xeno-canto.org/149044/download,Columba livia
-126804,B,74,Russian Federation,www.xeno-canto.org/126804/download,Columba livia
-121680,B,45,Poland,www.xeno-canto.org/121680/download,Columba livia
-116226,B,5,Poland,www.xeno-canto.org/116226/download,Columba livia
-74355,B,13,India,www.xeno-canto.org/74355/download,Columba livia
-74354,B,12,India,www.xeno-canto.org/74354/download,Columba livia
-51716,B,22,Argentina,www.xeno-canto.org/51716/download,Columba livia
-540139,C,41,Finland,www.xeno-canto.org/540139/download,Columba livia
-528216,C,8,United Kingdom,www.xeno-canto.org/528216/download,Columba livia
-528215,C,11,United Kingdom,www.xeno-canto.org/528215/download,Columba livia
-500498,C,21,United Kingdom,www.xeno-canto.org/500498/download,Columba livia
-500497,C,6,United Kingdom,www.xeno-canto.org/500497/download,Columba livia
-500496,C,20,United Kingdom,www.xeno-canto.org/500496/download,Columba livia
-500495,C,36,United Kingdom,www.xeno-canto.org/500495/download,Columba livia
-492939,C,20,Russian Federation,www.xeno-canto.org/492939/download,Columba livia
-492938,C,38,Russian Federation,www.xeno-canto.org/492938/download,Columba livia
-480209,C,10,Azerbaijan,www.xeno-canto.org/480209/download,Columba livia
-466256,C,19,Japan,www.xeno-canto.org/466256/download,Columba livia
-453906,C,12,United States,www.xeno-canto.org/453906/download,Columba livia
-419252,C,1,Brazil,www.xeno-canto.org/419252/download,Columba livia
-360364,C,66,Morocco,www.xeno-canto.org/360364/download,Columba livia
-202269,C,13,Colombia,www.xeno-canto.org/202269/download,Columba livia
-129886,C,51,Russian Federation,www.xeno-canto.org/129886/download,Columba livia
-91089,C,5,Peru,www.xeno-canto.org/91089/download,Columba livia
-28985,C,67,United Kingdom,www.xeno-canto.org/28985/download,Columba livia
-10112,C,6,Brazil,www.xeno-canto.org/10112/download,Columba livia
-501133,D,7,Sweden,www.xeno-canto.org/501133/download,Columba livia
-408823,D,120,Ukraine,www.xeno-canto.org/408823/download,Columba livia
-361753,D,12,Mexico,www.xeno-canto.org/361753/download,Columba livia
-323559,D,13,Honduras,www.xeno-canto.org/323559/download,Columba livia
-208882,D,33,India,www.xeno-canto.org/208882/download,Columba livia
-187051,D,2,India,www.xeno-canto.org/187051/download,Columba livia
-170450,D,87,France,www.xeno-canto.org/170450/download,Columba livia
-163851,D,23,India,www.xeno-canto.org/163851/download,Columba livia
-144228,D,33,Russian Federation,www.xeno-canto.org/144228/download,Columba livia
-113783,D,7,Brazil,www.xeno-canto.org/113783/download,Columba livia
-108758,D,4,Venezuela,www.xeno-canto.org/108758/download,Columba livia
-6924,D,45,Brazil,www.xeno-canto.org/6924/download,Columba livia
-387816,E,53,Germany,www.xeno-canto.org/387816/download,Columba livia
-323560,E,32,Honduras,www.xeno-canto.org/323560/download,Columba livia
-539640,no score,6,Poland,www.xeno-canto.org/539640/download,Pica pica
-547449,A,109,India,www.xeno-canto.org/547449/download,Pica pica
-542417,A,11,Netherlands,www.xeno-canto.org/542417/download,Pica pica
-539360,A,75,France,www.xeno-canto.org/539360/download,Pica pica
-537976,A,71,Sweden,www.xeno-canto.org/537976/download,Pica pica
-489184,A,40,France,www.xeno-canto.org/489184/download,Pica pica
-480309,A,181,Azerbaijan,www.xeno-canto.org/480309/download,Pica pica
-465923,A,14,Spain,www.xeno-canto.org/465923/download,Pica pica
-459050,A,146,Norway,www.xeno-canto.org/459050/download,Pica pica
-452123,A,16,Norway,www.xeno-canto.org/452123/download,Pica pica
-452081,A,172,Norway,www.xeno-canto.org/452081/download,Pica pica
-451138,A,12,Norway,www.xeno-canto.org/451138/download,Pica pica
-451108,A,13,Norway,www.xeno-canto.org/451108/download,Pica pica
-451095,A,18,Norway,www.xeno-canto.org/451095/download,Pica pica
-451064,A,50,Norway,www.xeno-canto.org/451064/download,Pica pica
-451040,A,29,Norway,www.xeno-canto.org/451040/download,Pica pica
-419863,A,33,Switzerland,www.xeno-canto.org/419863/download,Pica pica
-402025,A,222,Estonia,www.xeno-canto.org/402025/download,Pica pica
-387242,A,39,Spain,www.xeno-canto.org/387242/download,Pica pica
-385891,A,26,France,www.xeno-canto.org/385891/download,Pica pica
-383817,A,28,Greece,www.xeno-canto.org/383817/download,Pica pica
-281709,A,20,Belgium,www.xeno-canto.org/281709/download,Pica pica
-281708,A,28,Belgium,www.xeno-canto.org/281708/download,Pica pica
-279055,A,10,Finland,www.xeno-canto.org/279055/download,Pica pica
-278655,A,16,Finland,www.xeno-canto.org/278655/download,Pica pica
-255177,A,29,Finland,www.xeno-canto.org/255177/download,Pica pica
-233428,A,68,Finland,www.xeno-canto.org/233428/download,Pica pica
-215042,A,118,Finland,www.xeno-canto.org/215042/download,Pica pica
-213777,A,28,Poland,www.xeno-canto.org/213777/download,Pica pica
-213459,A,11,Finland,www.xeno-canto.org/213459/download,Pica pica
-208482,A,27,Finland,www.xeno-canto.org/208482/download,Pica pica
-197165,A,9,Sweden,www.xeno-canto.org/197165/download,Pica pica
-121016,A,58,Poland,www.xeno-canto.org/121016/download,Pica pica
-525868,B,12,Poland,www.xeno-canto.org/525868/download,Pica pica
-505497,B,74,Portugal,www.xeno-canto.org/505497/download,Pica pica
-459361,B,35,Spain,www.xeno-canto.org/459361/download,Pica pica
-459360,B,18,Spain,www.xeno-canto.org/459360/download,Pica pica
-449107,B,45,Germany,www.xeno-canto.org/449107/download,Pica pica
-339667,B,65,Netherlands,www.xeno-canto.org/339667/download,Pica pica
-328186,B,36,United Kingdom,www.xeno-canto.org/328186/download,Pica pica
-307721,B,28,Russian Federation,www.xeno-canto.org/307721/download,Pica pica
-307720,B,25,Russian Federation,www.xeno-canto.org/307720/download,Pica pica
-299621,B,57,Finland,www.xeno-canto.org/299621/download,Pica pica
-264045,B,76,Russian Federation,www.xeno-canto.org/264045/download,Pica pica
-261460,B,37,Finland,www.xeno-canto.org/261460/download,Pica pica
-234600,B,48,Romania,www.xeno-canto.org/234600/download,Pica pica
-233516,B,12,France,www.xeno-canto.org/233516/download,Pica pica
-233514,B,8,France,www.xeno-canto.org/233514/download,Pica pica
-208993,B,53,Finland,www.xeno-canto.org/208993/download,Pica pica
-208912,B,20,Finland,www.xeno-canto.org/208912/download,Pica pica
-168546,B,47,Russian Federation,www.xeno-canto.org/168546/download,Pica pica
-168545,B,74,Russian Federation,www.xeno-canto.org/168545/download,Pica pica
-459278,C,3,Portugal,www.xeno-canto.org/459278/download,Pica pica
-381999,C,93,France,www.xeno-canto.org/381999/download,Pica pica
-283656,C,47,United Kingdom,www.xeno-canto.org/283656/download,Pica pica
-263121,C,79,Spain,www.xeno-canto.org/263121/download,Pica pica
-168548,C,29,Russian Federation,www.xeno-canto.org/168548/download,Pica pica
-168543,C,33,Russian Federation,www.xeno-canto.org/168543/download,Pica pica
-168542,C,105,Russian Federation,www.xeno-canto.org/168542/download,Pica pica
-133086,C,55,Russian Federation,www.xeno-canto.org/133086/download,Pica pica
-125020,C,19,Denmark,www.xeno-canto.org/125020/download,Pica pica
-355076,D,14,Germany,www.xeno-canto.org/355076/download,Pica pica
+552492,no score,713,France,www.xeno-canto.org/552492/download,Turdus merula
+552489,no score,168,France,www.xeno-canto.org/552489/download,Turdus merula
+551869,no score,22,Spain,www.xeno-canto.org/551869/download,Turdus merula
 548325,no score,12,Spain,www.xeno-canto.org/548325/download,Turdus merula
 548289,no score,16,France,www.xeno-canto.org/548289/download,Turdus merula
 547221,no score,20,Belgium,www.xeno-canto.org/547221/download,Turdus merula
@@ -13024,6 +12715,16 @@ iD,quality,length,country,url,birdName
 528113,no score,151,Netherlands,www.xeno-canto.org/528113/download,Turdus merula
 527612,no score,100,Portugal,www.xeno-canto.org/527612/download,Turdus merula
 518778,no score,128,Poland,www.xeno-canto.org/518778/download,Turdus merula
+552361,A,54,Spain,www.xeno-canto.org/552361/download,Turdus merula
+552186,A,33,France,www.xeno-canto.org/552186/download,Turdus merula
+552175,A,53,Poland,www.xeno-canto.org/552175/download,Turdus merula
+551562,A,29,United Kingdom,www.xeno-canto.org/551562/download,Turdus merula
+551383,A,29,Belgium,www.xeno-canto.org/551383/download,Turdus merula
+550594,A,36,Spain,www.xeno-canto.org/550594/download,Turdus merula
+550282,A,60,France,www.xeno-canto.org/550282/download,Turdus merula
+550216,A,25,Spain,www.xeno-canto.org/550216/download,Turdus merula
+549334,A,40,Italy,www.xeno-canto.org/549334/download,Turdus merula
+548712,A,47,France,www.xeno-canto.org/548712/download,Turdus merula
 546949,A,288,France,www.xeno-canto.org/546949/download,Turdus merula
 546902,A,36,United Kingdom,www.xeno-canto.org/546902/download,Turdus merula
 546839,A,236,Germany,www.xeno-canto.org/546839/download,Turdus merula
@@ -13616,7 +13317,6 @@ iD,quality,length,country,url,birdName
 234561,A,240,United Kingdom,www.xeno-canto.org/234561/download,Turdus merula
 234247,A,104,Sweden,www.xeno-canto.org/234247/download,Turdus merula
 234021,A,48,Finland,www.xeno-canto.org/234021/download,Turdus merula
-233418,A,231,Finland,www.xeno-canto.org/233418/download,Turdus merula
 217637,A,69,Italy,www.xeno-canto.org/217637/download,Turdus merula
 217440,A,250,United Kingdom,www.xeno-canto.org/217440/download,Turdus merula
 217412,A,210,Germany,www.xeno-canto.org/217412/download,Turdus merula
@@ -13827,6 +13527,13 @@ iD,quality,length,country,url,birdName
 25873,A,68,Denmark,www.xeno-canto.org/25873/download,Turdus merula
 25708,A,288,Denmark,www.xeno-canto.org/25708/download,Turdus merula
 25554,A,137,Denmark,www.xeno-canto.org/25554/download,Turdus merula
+551146,B,120,Belgium,www.xeno-canto.org/551146/download,Turdus merula
+550110,B,253,Poland,www.xeno-canto.org/550110/download,Turdus merula
+549504,B,616,France,www.xeno-canto.org/549504/download,Turdus merula
+549331,B,89,Belgium,www.xeno-canto.org/549331/download,Turdus merula
+549264,B,57,United Kingdom,www.xeno-canto.org/549264/download,Turdus merula
+548580,B,100,Poland,www.xeno-canto.org/548580/download,Turdus merula
+548553,B,322,France,www.xeno-canto.org/548553/download,Turdus merula
 548481,B,366,Portugal,www.xeno-canto.org/548481/download,Turdus merula
 546285,B,93,Spain,www.xeno-canto.org/546285/download,Turdus merula
 545843,B,104,France,www.xeno-canto.org/545843/download,Turdus merula
@@ -14386,6 +14093,13 @@ iD,quality,length,country,url,birdName
 32944,B,68,Spain,www.xeno-canto.org/32944/download,Turdus merula
 26860,B,46,France,www.xeno-canto.org/26860/download,Turdus merula
 26605,B,91,Netherlands,www.xeno-canto.org/26605/download,Turdus merula
+551254,C,16,United Kingdom,www.xeno-canto.org/551254/download,Turdus merula
+551168,C,667,United Kingdom,www.xeno-canto.org/551168/download,Turdus merula
+550512,C,10,United Kingdom,www.xeno-canto.org/550512/download,Turdus merula
+550157,C,1261,Germany,www.xeno-canto.org/550157/download,Turdus merula
+550151,C,517,Germany,www.xeno-canto.org/550151/download,Turdus merula
+550148,C,250,Germany,www.xeno-canto.org/550148/download,Turdus merula
+550146,C,284,Germany,www.xeno-canto.org/550146/download,Turdus merula
 548332,C,21,Netherlands,www.xeno-canto.org/548332/download,Turdus merula
 548112,C,8,Ukraine,www.xeno-canto.org/548112/download,Turdus merula
 547378,C,1355,United Kingdom,www.xeno-canto.org/547378/download,Turdus merula
@@ -15113,6 +14827,7 @@ iD,quality,length,country,url,birdName
 89949,C,43,France,www.xeno-canto.org/89949/download,Turdus merula
 80334,C,86,Portugal,www.xeno-canto.org/80334/download,Turdus merula
 66998,C,37,Germany,www.xeno-canto.org/66998/download,Turdus merula
+549085,D,52,Belgium,www.xeno-canto.org/549085/download,Turdus merula
 543908,D,1046,United Kingdom,www.xeno-canto.org/543908/download,Turdus merula
 543899,D,771,United Kingdom,www.xeno-canto.org/543899/download,Turdus merula
 543892,D,186,United Kingdom,www.xeno-canto.org/543892/download,Turdus merula
@@ -15281,32 +14996,3 @@ iD,quality,length,country,url,birdName
 244439,E,32,Germany,www.xeno-canto.org/244439/download,Turdus merula
 239562,E,23,Germany,www.xeno-canto.org/239562/download,Turdus merula
 147898,E,152,Lithuania,www.xeno-canto.org/147898/download,Turdus merula
-527445,no score,141,France,www.xeno-canto.org/527445/download,Larus argentatus
-468803,A,79,Sweden,www.xeno-canto.org/468803/download,Larus argentatus
-412745,A,7,France,www.xeno-canto.org/412745/download,Larus argentatus
-412744,A,5,France,www.xeno-canto.org/412744/download,Larus argentatus
-412743,A,12,France,www.xeno-canto.org/412743/download,Larus argentatus
-412742,A,12,France,www.xeno-canto.org/412742/download,Larus argentatus
-412741,A,5,France,www.xeno-canto.org/412741/download,Larus argentatus
-342978,A,5,Finland,www.xeno-canto.org/342978/download,Larus argentatus
-330973,A,10,France,www.xeno-canto.org/330973/download,Larus argentatus
-283070,A,59,Norway,www.xeno-canto.org/283070/download,Larus argentatus
-283069,A,82,Norway,www.xeno-canto.org/283069/download,Larus argentatus
-283068,A,28,Norway,www.xeno-canto.org/283068/download,Larus argentatus
-282194,A,50,Poland,www.xeno-canto.org/282194/download,Larus argentatus
-263926,A,10,Norway,www.xeno-canto.org/263926/download,Larus argentatus
-234146,A,85,Finland,www.xeno-canto.org/234146/download,Larus argentatus
-194046,A,282,Netherlands,www.xeno-canto.org/194046/download,Larus argentatus
-168391,A,143,Netherlands,www.xeno-canto.org/168391/download,Larus argentatus
-154285,A,53,France,www.xeno-canto.org/154285/download,Larus argentatus
-126481,A,73,Norway,www.xeno-canto.org/126481/download,Larus argentatus
-125486,A,38,Norway,www.xeno-canto.org/125486/download,Larus argentatus
-539540,B,24,Sweden,www.xeno-canto.org/539540/download,Larus argentatus
-400695,B,41,Netherlands,www.xeno-canto.org/400695/download,Larus argentatus
-352842,B,23,Ireland,www.xeno-canto.org/352842/download,Larus argentatus
-352841,B,39,Ireland,www.xeno-canto.org/352841/download,Larus argentatus
-330971,B,9,France,www.xeno-canto.org/330971/download,Larus argentatus
-150294,B,81,Germany,www.xeno-canto.org/150294/download,Larus argentatus
-412724,C,69,France,www.xeno-canto.org/412724/download,Larus argentatus
-328590,C,28,France,www.xeno-canto.org/328590/download,Larus argentatus
-209146,C,8,Denmark,www.xeno-canto.org/209146/download,Larus argentatus
