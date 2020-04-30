@@ -29,8 +29,11 @@ python main.py --model_path="pretrained_models/ResNet22_mAP=0.430.pth" --labels_
 
 
 model_path: Path to your pretrained model
+
 saving: 0 = do not save; 1 = save training graph and trained model to .pth
+
 model_type: Your Pytorch model in transflearn_models.py
+
 nb_species: Your number of classes
 
 
