@@ -12,7 +12,6 @@ from models import *
 
 
 DEVICE = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
-print(f"Device: {DEVICE}")
 
 
 ### Load model function and Models class ###

@@ -19,7 +19,9 @@ from torch.optim import lr_scheduler
 sys.path.append('audio_tagging_functions')
 from models import *
 from transflearn_models import *
+from create_birds_dataset import FINAL_LABELS_PATH
 from data_processing import process_data
+from mp3towav import SAMPLE_RATE
 
 
 DEVICE = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
@@ -37,7 +39,8 @@ def train_model(model, criterion, optimizer, dataloaders, scheduler=None, num_ep
                         'train_loss': [],
                         'val_loss': [],
                         'train_acc': [],
-                        'val_acc': []}
+                        'val_acc': [], 
+                        'best_val_acc': 0}
 
     since = time.time()
     best_model_wts = copy.deepcopy(model.state_dict())
@@ -106,7 +109,9 @@ def train_model(model, criterion, optimizer, dataloaders, scheduler=None, num_ep
     time_elapsed = time.time() - since
     print('Training complete in {:.0f}m {:.0f}s'.format(
         time_elapsed // 60, time_elapsed % 60))
+    best_acc = round(float(best_acc), 4)
     print('Best val Acc: {:4f}'.format(best_acc))
+    history_training['best_val_acc'] = best_acc
 
     # load best model weights
     model.load_state_dict(best_model_wts)
@@ -114,8 +119,20 @@ def train_model(model, criterion, optimizer, dataloaders, scheduler=None, num_ep
     return model, history_training
 
 
-def plot_training(hist, graphs_path, model_type, do_save):
-    hist = history_training
+def save_model(model, hist, trained_models_path, model_type, do_save):
+    """
+    Saves the trained model.
+    """
+    if do_save:
+        saved_model_path = f"{trained_models_path}/{model_type}_trained_bestValAcc={hist['best_val_acc']}.pth"
+        torch.save(model.module.state_dict(), saved_model_path)
+        print(f"Model saved at {saved_model_path}")
+
+
+def plot_training(hist, graphs_path, model_type, do_save, do_plot=False):
+    """
+    Plots the training and validation loss/accuracy.
+    """
     fig, ax = plt.subplots(1, 2, figsize=(15,5))
     ax[0].set_title(f'{model_type} - loss')
     ax[0].plot(hist["epochs"], hist["train_loss"], label="Train loss")
@@ -126,10 +143,10 @@ def plot_training(hist, graphs_path, model_type, do_save):
     ax[0].legend()
     ax[1].legend()
     if do_save:
-        save_graph_path = f"{graphs_path}/{model_type}_training.jpg"
+        save_graph_path = f"{graphs_path}/{model_type}_training_bestValAcc={hist['best_val_acc']}.jpg"
         plt.savefig(save_graph_path)
         print(f"Training graph saved at {save_graph_path}")
-
+    if do_plot: plt.show()
 
 
 if __name__ == "__main__":
@@ -138,55 +155,60 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--model_path', type=str, required=True)
-    parser.add_argument('--labels_path', type=str, required=True)
     parser.add_argument('--trained_models_path', type=str, required=True)
     parser.add_argument('--graphs_path', type=str, required=True)
     parser.add_argument('--saving', type=int, required=True)
 
     parser.add_argument('--model_type', type=str, required=True)
-    parser.add_argument('--nb_species', type=int, required=True)
+    parser.add_argument('--frac_data', type=float, required=False, default=1.)
     parser.add_argument('--lr', type=float, required=True)
     parser.add_argument('--batch_size', type=int, required=True)
-    parser.add_argument('--epochs', type=int, required=True)
+    parser.add_argument('--epochs', type=int, required=True) 
 
     args = parser.parse_args()
 
 
     # Path
-    MODEL_PATH = args.model_path    #"pretrained_models/ResNet22_mAP=0.430.pth""pretrained_models/Cnn14_mAP=0.431.pth""pretrained_models/Cnn6_mAP=0.343.pth"
-    LABELS_PATH = args.labels_path  #"labels/all_data.csv"
-
+    MODEL_PATH = args.model_path                    #"pretrained_models/ResNet22_mAP=0.430.pth"
     TRAINED_MODELS_PATH = args.trained_models_path  # "models"
     GRAPHS_PATH = args.graphs_path                  # "graphs"
     SAVING = args.saving                            # int 0: no, 1: yes
 
     # Audio parameters
-    SR = 14000             # Sample Rate
-    AUDIO_DURATION = 10    # 10 seconds duration window for all audios
+    SR = SAMPLE_RATE             # Sample Rate
+    AUDIO_DURATION = 10          # 10 seconds duration for all audios
 
     # Model parameters
-    MODEL_TYPE = args.model_type      # "Transfer_ResNet22""Transfer_Cnn14""Transfer_Cnn6"
-    NB_SPECIES = args.nb_species      # Number of classes
+    MODEL_TYPE = args.model_type      # "Transfer_ResNet22"
     LR = args.lr                      # Learning Rate
     BATCH_SIZE = args.batch_size
     EPOCHS = args.epochs
 
     # Misc parameters
+    FRAC_DATA = args.frac_data        # Takes a {FRAC_DATA}% of the dataset
     RANDOM_STATE = 17
     random.seed(RANDOM_STATE)
 
 
     ### Data processing ###
-    labels_df = pd.read_csv(LABELS_PATH)
-    (trainloader, validationloader, testloader) = process_data(df=labels_df, batch_size=BATCH_SIZE,                 # labels_df.take(np.arange(128))
+    labels_df = pd.read_csv(FINAL_LABELS_PATH)
+    labels_df = labels_df.sample(frac=FRAC_DATA, random_state=RANDOM_STATE).reset_index(drop=True)
+
+    print(f"Using {int(FRAC_DATA*100)}% of the dataset.")
+
+    NB_SPECIES = len(set(labels_df['label']))      # Number of classes
+    print("NB_SPECIES: ", NB_SPECIES)
+
+    (trainloader, validationloader, testloader) = process_data(df=labels_df, batch_size=BATCH_SIZE,                 
                                                                sample_rate=SR, audio_duration=AUDIO_DURATION, 
-                                                               random_state=RANDOM_STATE)
+                                                               random_state=RANDOM_STATE, do_plot=False)
     dataloaders = {"train": trainloader[0],
                    "val": validationloader[0]}
     dataset_sizes = {"train": trainloader[1],
                      "val": validationloader[1]}
-
     print(dataset_sizes)
+
+
     ### Load Model ###
     model = load_model(model_type=MODEL_TYPE, sample_rate=SR, nb_species=NB_SPECIES, model_path=MODEL_PATH)
 
@@ -194,7 +216,6 @@ if __name__ == "__main__":
     ###  Define loss function and optimizer ### 
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=LR)
-    #exp_lr_scheduler = lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
 
 
     ### Training ###
@@ -203,10 +224,7 @@ if __name__ == "__main__":
 
 
     ### Save the model ###
-    if SAVING:
-        save_model_path = f"{TRAINED_MODELS_PATH}/{MODEL_TYPE}_trained.pth"
-        torch.save(model.module.state_dict(), save_model_path)
-        print(f"Model saved at {save_model_path}")
+    save_model(model=model, hist=history_training, trained_models_path=TRAINED_MODELS_PATH, model_type=MODEL_TYPE, do_save=SAVING)
 
 
     ### Plotting the losses ###

@@ -32,6 +32,7 @@ BANNEDIDS = [465779, 456971] # Audio that has an issue when converting mp3 to wa
 LABELS_PATH = "labels"
 DATA_PATH_UNFILTERED = f"{LABELS_PATH}/unfiltered_birds_df.csv"
 DATA_PATH_FILTERED = f"{LABELS_PATH}/filtered_birds_df.csv"
+FINAL_LABELS_PATH = f"{LABELS_PATH}/all_data.csv"
 AUDIO_TYPE = ' type:song'
 
 DATA_DIR = "audiodata/mp3"
@@ -42,6 +43,7 @@ DATA_DIR_WAV = "audiodata/wav"
 for path in [LABELS_PATH, DATA_DIR, DATA_DIR_WAV]:
     if not os.path.exists(path):
         os.makedirs(path)
+        print(f"{DATA_DIR_WAV} folder created.")
 
 
 
@@ -144,7 +146,6 @@ def get_filtered_df(df, bannedList):
                          & ((df['length'] >= 10) & (df['length'] < 100))]
     
     return filtered_df
-
 
 
 

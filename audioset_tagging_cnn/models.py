@@ -405,6 +405,7 @@ class Cnn14_no_dropout(nn.Module):
         return output_dict
 
 
+#ResNet22
 class Cnn6(nn.Module):
     def __init__(self, sample_rate, window_size, hop_size, mel_bins, fmin, 
         fmax, classes_num):

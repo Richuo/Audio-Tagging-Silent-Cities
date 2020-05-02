@@ -18,6 +18,8 @@ import torch.utils.data as utils
 
 sys.path.append('audio_tagging_functions')
 from models import *
+from create_birds_dataset import FINAL_LABELS_PATH
+from mp3towav import SAMPLE_RATE
 
 
 DEVICE = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
@@ -51,6 +53,9 @@ def load_df2array(df, sample_rate, audio_duration):
             iD = df['iD'][idx]
             nonValidDict[iD] = filename
 
+    del df
+    gc.collect()
+
     return (waveforms_list, nonValidDict)
 
 
@@ -67,9 +72,9 @@ def load_waveform2numpy(filename, length, sample_rate, audio_duration):
 
 def get_dataloaders(x, y, batch_size):
     """
-    Converts numpy arrays to Pyrtoch dataloader
+    Converts numpy arrays to Pyrtoch dataloader.
     """
-    tensor_x = torch.from_numpy(x).float().to(DEVICE)
+    tensor_x = torch.from_numpy(x).float().to('cpu')
     tensor_y = torch.from_numpy(y).long().to(DEVICE)
 
     tensordataset = utils.TensorDataset(tensor_x, tensor_y)
@@ -85,7 +90,7 @@ def get_dataloaders(x, y, batch_size):
 
 def plot_distribution(do_plot, y_list):
     """
-
+    Plot distribution for a dataset.
     """
     if do_plot:
         nb_y = len(y_list)
@@ -96,8 +101,7 @@ def plot_distribution(do_plot, y_list):
             y_array = y_list[idx]
             label = labels[idx]
             len_y = len(y_array)
-            print(y_array)
-            ax.hist(y_array, bins=int(len_y/3))
+            ax.hist(y_array, bins=np.arange(min(y_array), max(y_array) + 0.5, 0.5), align='left')
             ax.set_title(f"Distribution of the samples for {label} (n={len_y})")
             ax.set_xlabel('label')
             ax.set_ylabel('Number of samples')
@@ -108,37 +112,54 @@ def plot_distribution(do_plot, y_list):
 
 def process_data(df, batch_size, sample_rate, audio_duration, random_state, do_plot=False):
     """
-    Process data function, returns all the dataloaders for the training
+    Process data function, returns all the dataloaders for the training.
     """
     print("Processing Data...")
     start_time = time.time()
     waveforms_list, nonValidDict = load_df2array(df, sample_rate, audio_duration)
     print(f"Valid files: {len(waveforms_list)}\nUnvalid files: {len(nonValidDict)}")
 
+    print("Vstacking data...")
     waveforms_arrays = [x[0] for x in waveforms_list]
     X_all = np.vstack(waveforms_arrays)
     y_all = np.array([x[1] for x in waveforms_list])
 
+    del waveforms_list, waveforms_arrays
+    gc.collect()
+
+    print("Splitting dataset...")
     # Split Data in train, validation, test
     X_training, X_test, y_training, y_test = train_test_split(X_all, y_all, test_size=0.1, 
                                                               random_state=random_state, stratify=y_all)
+    # Free some memory spaces
+    del X_all, y_all
+    gc.collect()
+
     X_train, X_val, y_train, y_val = train_test_split(X_training, y_training, test_size=0.2, 
                                                       random_state=random_state, stratify=y_training)
+
     print(f"X_train:{X_train.shape}, X_val:{X_val.shape}, X_test:{X_test.shape}")
     print(f"y_train:{y_train.shape}, y_val:{y_val.shape}, y_test:{y_test.shape}")
+
+    # Free some memory spaces
+    del X_training,  y_training
+    gc.collect()
+
 
     y_list = [y_train, y_val, y_test]
     plot_distribution(do_plot, y_list)
 
-    print("Attributing arrays to dataloaders...")
+    # Free some memory spaces
+    del y_list
+    gc.collect()
 
+    print("Attributing arrays to train dataloader...")
     trainloader, train_length = get_dataloaders(X_train, y_train, batch_size)
+    print("Attributing arrays to validation dataloader...")
     validationloader, val_length = get_dataloaders(X_val, y_val, batch_size)
+    print("Attributing arrays to test dataloader...")
     testloader, test_length = get_dataloaders(X_test, y_test, batch_size)
 
-    # Free some memory spaces
-    del X_all, y_all, waveforms_list
-    gc.collect()
 
     now = time.time()-start_time
     print(f"Data processing duration: {int(now//60)}min {int(now%60)}s")
@@ -151,11 +172,11 @@ if __name__ == "__main__":
 
     ### Main parameters ###
     # Path
-    LABELS_PATH = "labels/all_data.csv"
+    LABELS_PATH = FINAL_LABELS_PATH
 
     # Audio parameters
-    SR = 14000             # Sample Rate
-    AUDIO_DURATION = 10    # 10 seconds duration window for all audios
+    SR = SAMPLE_RATE             # Sample Rate
+    AUDIO_DURATION = 10          # 10 seconds duration window for all audios
 
     # Model parameters
     BATCH_SIZE = 8

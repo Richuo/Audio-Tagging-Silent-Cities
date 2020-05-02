@@ -7,25 +7,26 @@ import librosa
 import soundfile as sf
 import pandas as pd
 
-from create_birds_dataset import BIRDSLIST, BANNEDIDS, LABELS_PATH, DATA_PATH_FILTERED, DATA_DIR, DATA_DIR_WAV
+from create_birds_dataset import BIRDSLIST, BANNEDIDS, FINAL_LABELS_PATH, DATA_PATH_FILTERED, DATA_DIR, DATA_DIR_WAV
 
 
 # To create training dataset
 DATA_DIR_MP3 = DATA_DIR
-FINAL_LABELS_PATH = f"{LABELS_PATH}/all_data.csv"
 
-SR = 14000
+SAMPLE_RATE = 32000
 BIRDS_DIR_LIST = os.listdir(DATA_DIR_MP3)
 
 
 # Create directories for wav files
 if not os.path.exists(DATA_DIR_WAV):
     os.makedirs(DATA_DIR_WAV)
+    print(f"{DATA_DIR_WAV} folder created.")
 
 for bird in BIRDS_DIR_LIST:
     data_dir_bird = f"{DATA_DIR_WAV}/{bird}"
     if not os.path.exists(data_dir_bird):
         os.makedirs(data_dir_bird)
+        print(f"{data_dir_bird} folder created.")
 
 
 def convert_mp3_to_wav(filename, birdName, sr):
@@ -57,9 +58,11 @@ def conversion_function(birdslist, sr, do_print=False):
         
         if do_print: start_time = time.time(); print(f"Converting {len(birdsaudiolist)} audio files of {birdName}")
            
-        Parallel(n_jobs=-1)(delayed(convert_mp3_to_wav)(birdaudio, birdName, sr,) 
+        Parallel(n_jobs=-1)(delayed(convert_mp3_to_wav)(birdaudio, birdName, sr) 
                                        for birdaudio in birdsaudiolist)
-        
+
+        # for birdaudio in birdsaudiolist:
+        #     convert_mp3_to_wav(birdaudio, birdName, sr) 
 
         if do_print: print(f"Conversion duration: {time.time()-start_time}s\n")
         
@@ -108,11 +111,10 @@ def create_labels_df(birdslist, bannedids):
 
 
 
-
 if __name__ == "__main__":
 
     ### Start the conversion from mp3 to wav ###
-    conversion_function(BIRDS_DIR_LIST, SR, do_print=True)
+    conversion_function(birdslist=BIRDS_DIR_LIST, sr=SAMPLE_RATE, do_print=True)
 
     print("Unvalid files:", unvalidList)
 
