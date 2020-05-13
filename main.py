@@ -119,8 +119,6 @@ def train_model(model, criterion, optimizer, dataloaders, scheduler=None, num_ep
     return model, history_training
 
 
-<<<<<<< HEAD
-=======
 def test_model(model, criterion, dataloaders):
     """
     Testing function. 
@@ -158,7 +156,6 @@ def test_model(model, criterion, dataloaders):
     print("Inference on Testset complete in {:.1f}s\n".format(time.time() - sincetime))
 
 
->>>>>>> dd6a0f1... Test after training added.
 def save_model(model, hist, trained_models_path, model_type, do_save):
     """
     Saves the trained model.
@@ -246,12 +243,8 @@ if __name__ == "__main__":
                    "val": validationloader[0],
                    "test": testloader[0]}
     dataset_sizes = {"train": trainloader[1],
-<<<<<<< HEAD
-                     "val": validationloader[1]}
-=======
                      "val": validationloader[1],
                      "test": testloader[1]}
->>>>>>> dd6a0f1... Test after training added.
     print(dataset_sizes)
 
 
@@ -274,12 +267,8 @@ if __name__ == "__main__":
 
 
     ### Save the model ###
-<<<<<<< HEAD
-    save_model(model=model, hist=history_training, trained_models_path=TRAINED_MODELS_PATH, model_type=MODEL_TYPE, do_save=SAVING)
-=======
     save_model(model=model, hist=history_training, 
                trained_models_path=TRAINED_MODELS_PATH, model_type=MODEL_TYPE, do_save=SAVING)
->>>>>>> dd6a0f1... Test after training added.
 
 
     ### Plotting the losses ###
