@@ -50,7 +50,7 @@ class Transfer_Cnn6(nn.Module):
         """
         super(Transfer_Cnn6, self).__init__()
         audioset_classes_num = 527
-        
+
         self.base = Cnn6(sample_rate, window_size, hop_size, mel_bins, fmin, 
             fmax, audioset_classes_num)
 

@@ -119,6 +119,46 @@ def train_model(model, criterion, optimizer, dataloaders, scheduler=None, num_ep
     return model, history_training
 
 
+<<<<<<< HEAD
+=======
+def test_model(model, criterion, dataloaders):
+    """
+    Testing function. 
+    Print the loss and accuracy after the inference on the testset.
+    """
+    sincetime = time.time()
+
+    phase = "test"
+    model.eval()   # Set model to evaluate mode
+
+    running_loss = 0.0
+    running_corrects = 0
+
+    # Iterate over data.
+    for inputs, labels in dataloaders[phase]:
+        inputs = inputs.to(DEVICE)
+        labels = labels.to(DEVICE)
+
+        # forward
+        # track history if only in train
+        with torch.set_grad_enabled(False):
+            outputs = model(inputs)['clipwise_output']
+            _, preds = torch.max(outputs, 1)
+            loss = criterion(outputs, labels)
+
+        # statistics
+        running_loss += loss.item() * inputs.size(0)
+        running_corrects += torch.sum(preds == labels.data)
+
+    test_loss = running_loss / dataset_sizes[phase]
+    test_acc = running_corrects.double() / dataset_sizes[phase]
+
+    print('\n**TESTING**\nTest stats -  Loss: {:.4f} Acc: {:.2f}%'.format(test_loss, test_acc*100))            
+
+    print("Inference on Testset complete in {:.1f}s\n".format(time.time() - sincetime))
+
+
+>>>>>>> dd6a0f1... Test after training added.
 def save_model(model, hist, trained_models_path, model_type, do_save):
     """
     Saves the trained model.
@@ -203,9 +243,15 @@ if __name__ == "__main__":
                                                                sample_rate=SR, audio_duration=AUDIO_DURATION, 
                                                                random_state=RANDOM_STATE, do_plot=False)
     dataloaders = {"train": trainloader[0],
-                   "val": validationloader[0]}
+                   "val": validationloader[0],
+                   "test": testloader[0]}
     dataset_sizes = {"train": trainloader[1],
+<<<<<<< HEAD
                      "val": validationloader[1]}
+=======
+                     "val": validationloader[1],
+                     "test": testloader[1]}
+>>>>>>> dd6a0f1... Test after training added.
     print(dataset_sizes)
 
 
@@ -223,9 +269,19 @@ if __name__ == "__main__":
                                           dataloaders=dataloaders, scheduler=None, num_epochs=EPOCHS)
 
 
+    ### Testing ###
+    test_model(model=model, criterion=criterion, dataloaders=dataloaders)
+
+
     ### Save the model ###
+<<<<<<< HEAD
     save_model(model=model, hist=history_training, trained_models_path=TRAINED_MODELS_PATH, model_type=MODEL_TYPE, do_save=SAVING)
+=======
+    save_model(model=model, hist=history_training, 
+               trained_models_path=TRAINED_MODELS_PATH, model_type=MODEL_TYPE, do_save=SAVING)
+>>>>>>> dd6a0f1... Test after training added.
 
 
     ### Plotting the losses ###
-    plot_training(hist=history_training, graphs_path=GRAPHS_PATH, model_type=MODEL_TYPE, do_save=SAVING)
+    plot_training(hist=history_training, graphs_path=GRAPHS_PATH, 
+                  model_type=MODEL_TYPE, do_save=SAVING)
