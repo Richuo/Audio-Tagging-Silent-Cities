@@ -19,7 +19,7 @@ from torch.optim import lr_scheduler
 sys.path.append('audio_tagging_functions')
 from models import *
 from transflearn_models import *
-from create_birds_dataset import FINAL_LABELS_PATH
+from create_birds_dataset import FINAL_LABELS_PATH, TRAIN_LABELS_PATH, VAL_LABELS_PATH, TEST_LABELS_PATH
 from data_processing import process_data
 from mp3towav import SAMPLE_RATE
 
@@ -30,7 +30,7 @@ print(f"Device: {DEVICE}")
 
 ### Training function ###
 
-def train_model(model, criterion, optimizer, dataloaders, scheduler=None, num_epochs=25):
+def train_model(model, criterion, optimizer, dataloaders, dataset_sizes, scheduler=None, num_epochs=25):
     """
     Training function. 
     Returns the trained model and a dictionary for plotting purposes.
@@ -40,7 +40,8 @@ def train_model(model, criterion, optimizer, dataloaders, scheduler=None, num_ep
                         'val_loss': [],
                         'train_acc': [],
                         'val_acc': [], 
-                        'best_val_acc': 0}
+                        'best_val_acc': 0, 
+                        'test_acc': 0}
 
     since = time.time()
     best_model_wts = copy.deepcopy(model.state_dict())
@@ -116,10 +117,10 @@ def train_model(model, criterion, optimizer, dataloaders, scheduler=None, num_ep
     # load best model weights
     model.load_state_dict(best_model_wts)
 
-    return model, history_training
+    return (model, history_training)
 
 
-def test_model(model, criterion, dataloaders):
+def test_model(model, hist, criterion, dataloaders, dataset_sizes):
     """
     Testing function. 
     Print the loss and accuracy after the inference on the testset.
@@ -131,6 +132,9 @@ def test_model(model, criterion, dataloaders):
 
     running_loss = 0.0
     running_corrects = 0
+
+    list_y_pred = []
+    list_y_true = []
 
     # Iterate over data.
     for inputs, labels in dataloaders[phase]:
@@ -148,12 +152,22 @@ def test_model(model, criterion, dataloaders):
         running_loss += loss.item() * inputs.size(0)
         running_corrects += torch.sum(preds == labels.data)
 
+        list_y_pred.append(preds)
+        list_y_true.append(labels.data)
+
     test_loss = running_loss / dataset_sizes[phase]
     test_acc = running_corrects.double() / dataset_sizes[phase]
+    test_acc = round(float(test_acc), 4)
+    hist['test_acc'] = test_acc
+
+    hist['y_pred'] = list_y_pred
+    hist['y_true'] = list_y_true
 
     print('\n**TESTING**\nTest stats -  Loss: {:.4f} Acc: {:.2f}%'.format(test_loss, test_acc*100))            
 
     print("Inference on Testset complete in {:.1f}s\n".format(time.time() - sincetime))
+
+    return hist
 
 
 def save_model(model, hist, trained_models_path, model_type, do_save):
@@ -161,7 +175,7 @@ def save_model(model, hist, trained_models_path, model_type, do_save):
     Saves the trained model.
     """
     if do_save:
-        saved_model_path = f"{trained_models_path}/{model_type}_trained_bestValAcc={hist['best_val_acc']}.pth"
+        saved_model_path = f"{trained_models_path}/{model_type}_trained_testAcc={hist['test_acc']}.pth"
         torch.save(model.module.state_dict(), saved_model_path)
         print(f"Model saved at {saved_model_path}")
 
@@ -180,7 +194,7 @@ def plot_training(hist, graphs_path, model_type, do_save, do_plot=False):
     ax[0].legend()
     ax[1].legend()
     if do_save:
-        save_graph_path = f"{graphs_path}/{model_type}_training_bestValAcc={hist['best_val_acc']}.jpg"
+        save_graph_path = f"{graphs_path}/{model_type}_training_testAcc={hist['test_acc']}.jpg"
         plt.savefig(save_graph_path)
         print(f"Training graph saved at {save_graph_path}")
     if do_plot: plt.show()
@@ -228,23 +242,44 @@ if __name__ == "__main__":
 
 
     ### Data processing ###
-    labels_df = pd.read_csv(FINAL_LABELS_PATH)
-    labels_df = labels_df.sample(frac=FRAC_DATA, random_state=RANDOM_STATE).reset_index(drop=True)
+    train_df = pd.read_csv(TRAIN_LABELS_PATH)
+    val_df = pd.read_csv(VAL_LABELS_PATH)
+    test_df = pd.read_csv(TEST_LABELS_PATH)
+
+    train_df = train_df.sample(frac=FRAC_DATA, random_state=RANDOM_STATE).reset_index(drop=True)
+    val_df = val_df.sample(frac=FRAC_DATA, random_state=RANDOM_STATE).reset_index(drop=True)
+    test_df = test_df.sample(frac=FRAC_DATA, random_state=RANDOM_STATE).reset_index(drop=True)
 
     print(f"Using {int(FRAC_DATA*100)}% of the dataset.")
 
-    NB_SPECIES = len(set(labels_df['label']))      # Number of classes
+    NB_SPECIES = len(set(train_df['label']))      # Number of classes
     print("NB_SPECIES: ", NB_SPECIES)
 
-    (trainloader, validationloader, testloader) = process_data(df=labels_df, batch_size=BATCH_SIZE,                 
-                                                               sample_rate=SR, audio_duration=AUDIO_DURATION, 
-                                                               random_state=RANDOM_STATE, do_plot=False)
+
+    print("Processing Training Data...")
+    trainloader = process_data(df=train_df, batch_size=BATCH_SIZE, 
+                               sample_rate=SR, audio_duration=AUDIO_DURATION, 
+                               random_state=RANDOM_STATE, do_plot=False)
+
+    print("Processing Validation Data...")
+    validationloader = process_data(df=val_df, batch_size=BATCH_SIZE, 
+                                    sample_rate=SR, audio_duration=AUDIO_DURATION, 
+                                    random_state=RANDOM_STATE, do_plot=False)
+
+    print("Processing Test Data...")
+    testloader = process_data(df=test_df, batch_size=1, 
+                              sample_rate=SR, audio_duration=AUDIO_DURATION, 
+                              random_state=RANDOM_STATE, do_plot=False)
+
+
     dataloaders = {"train": trainloader[0],
                    "val": validationloader[0],
                    "test": testloader[0]}
+
     dataset_sizes = {"train": trainloader[1],
                      "val": validationloader[1],
                      "test": testloader[1]}
+
     print(dataset_sizes)
 
 
@@ -259,11 +294,13 @@ if __name__ == "__main__":
 
     ### Training ###
     model, history_training = train_model(model=model, criterion=criterion, optimizer=optimizer, 
-                                          dataloaders=dataloaders, scheduler=None, num_epochs=EPOCHS)
+                                          dataloaders=dataloaders, dataset_sizes=dataset_sizes, 
+                                          scheduler=None, num_epochs=EPOCHS)
 
 
     ### Testing ###
-    test_model(model=model, criterion=criterion, dataloaders=dataloaders)
+    history_training = test_model(model=model, hist=history_training, criterion=criterion, 
+                                  dataloaders=dataloaders, dataset_sizes=dataset_sizes)
 
 
     ### Save the model ###

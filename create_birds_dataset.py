@@ -33,6 +33,9 @@ LABELS_PATH = "labels"
 DATA_PATH_UNFILTERED = f"{LABELS_PATH}/unfiltered_birds_df.csv"
 DATA_PATH_FILTERED = f"{LABELS_PATH}/filtered_birds_df.csv"
 FINAL_LABELS_PATH = f"{LABELS_PATH}/all_data.csv"
+TRAIN_LABELS_PATH = f"{LABELS_PATH}/train_data.csv"
+VAL_LABELS_PATH = f"{LABELS_PATH}/val_data.csv"
+TEST_LABELS_PATH = f"{LABELS_PATH}/test_data.csv"
 AUDIO_TYPE = ' type:song'
 
 DATA_DIR = "audiodata/mp3"

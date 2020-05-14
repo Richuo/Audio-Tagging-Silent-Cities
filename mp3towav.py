@@ -2,12 +2,16 @@ import os
 import sys
 import time
 import numpy as np
+
 from joblib import Parallel, delayed
 import librosa
 import soundfile as sf
-import pandas as pd
 
-from create_birds_dataset import BIRDSLIST, BANNEDIDS, FINAL_LABELS_PATH, DATA_PATH_FILTERED, DATA_DIR, DATA_DIR_WAV
+import pandas as pd
+from sklearn.model_selection import train_test_split
+
+from create_birds_dataset import BIRDSLIST, BANNEDIDS,  DATA_PATH_FILTERED, DATA_DIR, DATA_DIR_WAV
+from create_birds_dataset import FINAL_LABELS_PATH, TRAIN_LABELS_PATH, VAL_LABELS_PATH, TEST_LABELS_PATH
 
 
 # To create training dataset
@@ -106,8 +110,25 @@ def create_labels_df(birdslist, bannedids):
 
     print("Labels Dataframe Shape:", labels_df.shape)
 
-    # Save filtered df to csv
+    training_df, test_df = train_test_split(labels_df, test_size=0.1, 
+                                            random_state=42, stratify=labels_df[['label']])
+
+    train_df, val_df = train_test_split(training_df, test_size=0.2, 
+                                                      random_state=42, stratify=training_df[['label']])
+
+    train_df = train_df.reset_index(drop=True)
+    val_df = val_df.reset_index(drop=True)
+    test_df = test_df.reset_index(drop=True)
+
+    print("Train Dataframe Shape:", train_df.shape)
+    print("Validation Dataframe Shape:", val_df.shape)
+    print("Test Dataframe Shape:", test_df.shape)
+
+    # Save all labels data to csv
     labels_df.to_csv(FINAL_LABELS_PATH, index=False)
+    train_df.to_csv(TRAIN_LABELS_PATH, index=False)
+    val_df.to_csv(VAL_LABELS_PATH, index=False)
+    test_df.to_csv(TEST_LABELS_PATH, index=False)
 
 
 

@@ -112,9 +112,8 @@ def plot_distribution(do_plot, y_list):
 
 def process_data(df, batch_size, sample_rate, audio_duration, random_state, do_plot=False):
     """
-    Process data function, returns all the dataloaders for the training.
+    Process data function, returns the dataloader of the dataframe df.
     """
-    print("Processing Data...")
     start_time = time.time()
     waveforms_list, nonValidDict = load_df2array(df, sample_rate, audio_duration)
     print(f"Valid files: {len(waveforms_list)}\nUnvalid files: {len(nonValidDict)}")
@@ -127,44 +126,16 @@ def process_data(df, batch_size, sample_rate, audio_duration, random_state, do_p
     del waveforms_list, waveforms_arrays
     gc.collect()
 
-    print("Splitting dataset...")
-    # Split Data in train, validation, test
-    X_training, X_test, y_training, y_test = train_test_split(X_all, y_all, test_size=0.1, 
-                                                              random_state=random_state, stratify=y_all)
-    # Free some memory spaces
+    print("Attributing arrays to dataloader...")
+    dataloader, dataloader_length = get_dataloaders(X_all, y_all, batch_size)
+
     del X_all, y_all
     gc.collect()
 
-    X_train, X_val, y_train, y_val = train_test_split(X_training, y_training, test_size=0.2, 
-                                                      random_state=random_state, stratify=y_training)
-
-    print(f"X_train:{X_train.shape}, X_val:{X_val.shape}, X_test:{X_test.shape}")
-    print(f"y_train:{y_train.shape}, y_val:{y_val.shape}, y_test:{y_test.shape}")
-
-    # Free some memory spaces
-    del X_training,  y_training
-    gc.collect()
-
-
-    y_list = [y_train, y_val, y_test]
-    plot_distribution(do_plot, y_list)
-
-    # Free some memory spaces
-    del y_list
-    gc.collect()
-
-    print("Attributing arrays to train dataloader...")
-    trainloader, train_length = get_dataloaders(X_train, y_train, batch_size)
-    print("Attributing arrays to validation dataloader...")
-    validationloader, val_length = get_dataloaders(X_val, y_val, batch_size)
-    print("Attributing arrays to test dataloader...")
-    testloader, test_length = get_dataloaders(X_test, y_test, batch_size)
-
-
     now = time.time()-start_time
-    print(f"Data processing duration: {int(now//60)}min {int(now%60)}s")
+    print(f"Data processing duration: {int(now//60)}min {int(now%60)}s\n")
 
-    return ([trainloader, train_length], [validationloader, val_length], [testloader, test_length])
+    return [dataloader, dataloader_length]
 
 
 
@@ -189,6 +160,6 @@ if __name__ == "__main__":
     ### Data processing ###
     labels_df = pd.read_csv(LABELS_PATH)
     print('Testing the process_data function with 10% of the dataset')
-    (trainloader, validationloader, testloader) = process_data(df=labels_df.take(np.arange(int(len(labels_df)*0.1))), batch_size=BATCH_SIZE,
+    alldataloader, dataloader_length = process_data(df=labels_df.take(np.arange(int(len(labels_df)*0.1))), batch_size=BATCH_SIZE,
                                                                sample_rate=SR, audio_duration=AUDIO_DURATION, 
                                                                random_state=RANDOM_STATE, do_plot=True)

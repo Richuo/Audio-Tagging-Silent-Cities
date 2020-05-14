@@ -16,19 +16,23 @@ DEVICE = torch.device('cuda') if torch.cuda.is_available() else torch.device('cp
 
 ### Load model function and Models class ###
 
-def load_model(model_type, sample_rate, nb_species, model_path):
+def load_model(model_type, sample_rate, nb_species, model_path, after_train=False):
     """
     Loads and returns the choosen model.
+    Use after_train=True for loading the model after the training (see plot_stats.pynb)
     """
     # Initialize Model
     Model = eval(model_type)
-    model = Model(sample_rate=sample_rate, window_size=1024, hop_size=320, mel_bins=64, fmin=50, fmax=14000, 
+    model = Model(sample_rate=sample_rate, window_size=1024, hop_size=320, mel_bins=64, fmin=50, fmax=32000, 
         classes_num=nb_species, freeze_base=True)
 
-    print(model)
+    if after_train:
+        model.load_state_dict(torch.load(model_path))
 
-    # Load pretrained model
-    model.load_from_pretrain(model_path)
+    else:
+        # Load pretrained model
+        print(model)
+        model.load_from_pretrain(model_path)
 
     # Parallel
     print('GPU number: {}'.format(torch.cuda.device_count()))
@@ -182,7 +186,7 @@ if __name__ == "__main__":
     MODEL_PATH = "pretrained_models/Cnn6_mAP=0.343.pth"
 
     # Audio parameters
-    SR = 14000             # Sample Rate
+    SR = 32000             # Sample Rate
 
     # Model parameters
     MODEL_TYPE = "Transfer_Cnn6"
